@@ -97,7 +97,7 @@ export default function ArsitekturPage() {
             Lihat Seluruh PDF (37 Halaman)
           </Link>
           <a
-            href="/downloads/rencana-kantor-kecamatan-pahandut.dwg"
+            href="https://github.com/Scthyleee/proyek-tmb-website/releases/download/v1.0.0/rencana-kantor-kecamatan-pahandut.dwg"
             download
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl border border-accent-secondary/30 bg-accent-secondary/5
               text-accent-secondary text-xs font-medium hover:bg-accent-secondary/10 transition-all duration-300"
