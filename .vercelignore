@@ -1,0 +1,11 @@
+# Exclude raw source files - terlalu besar untuk Vercel
+file/
+
+# Exclude large binary downloads (DWG 14MB + PDF 26MB = 41MB over limit)
+# Upload manual ke Google Drive / OneDrive dan update link di website jika perlu
+public/downloads/rencana-kantor-kecamatan-pahandut.dwg
+public/downloads/gambar-kerja.pdf
+
+# Exclude dev files
+.env*.local
+*.log

@@ -1,0 +1,58 @@
+{
+  "galeri": [
+    {
+      "id": "galeri-1",
+      "src": "/images/dummy-1.jpg",
+      "title": "Kegiatan Awal",
+      "category": "Dokumentasi",
+      "date": "2026-01-10"
+    }
+  ],
+  "dokumen": [
+    {
+      "id": "gambar-kerja",
+      "title": "Gambar Kerja",
+      "desc": "37 lembar gambar teknis Kantor Kecamatan Pahandut (denah, tampak, potongan, detail)",
+      "icon": "📐",
+      "pages": 37,
+      "size": "26.7 MB",
+      "pdfUrl": "/downloads/gambar-kerja.pdf"
+    },
+    {
+      "id": "proposal",
+      "title": "Proposal Proyek",
+      "desc": "Proposal awal proyek DED & TI Kantor Kecamatan Pahandut",
+      "icon": "📝",
+      "pages": 45,
+      "size": "2.4 MB",
+      "pdfUrl": null
+    },
+    {
+      "id": "laporan",
+      "title": "Laporan Akhir",
+      "desc": "Laporan akhir lengkap proyek TMB Batch 2 Kelompok 11",
+      "icon": "📊",
+      "pages": 120,
+      "size": "8.7 MB",
+      "pdfUrl": null
+    },
+    {
+      "id": "jurnal",
+      "title": "Jurnal Proyek",
+      "desc": "Jurnal ilmiah ringkasan hasil dan temuan proyek",
+      "icon": "📰",
+      "pages": 15,
+      "size": "1.2 MB",
+      "pdfUrl": null
+    }
+  ],
+  "logbook": [
+    {
+      "id": "lb-1",
+      "date": "10 Januari 2026",
+      "title": "Kick-off Meeting & Survey Lokasi",
+      "desc": "Pertemuan awal dengan pihak kecamatan dan pengukuran lahan awal.",
+      "progress": 10
+    }
+  ]
+}

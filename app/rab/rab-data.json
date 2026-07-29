@@ -1,0 +1,3565 @@
+{
+  "rekapitulasi": {
+    "title": "Rekapitulasi Rencana Anggaran Biaya",
+    "project": ": PEMBANGUNAN 3 BUAH RUKO 2 LANTAI",
+    "location": ": PALANGKA RAYA",
+    "year": ": 2026",
+    "items": [
+      {
+        "no": "I",
+        "name": "JUMLAH PEKERJAAN PERSIAPAN",
+        "amount": 143892866.6
+      },
+      {
+        "no": "II",
+        "name": "JUMLAH PEKERJAAN TANAH",
+        "amount": 124489019.7
+      },
+      {
+        "no": "III",
+        "name": "JUMLAH PEKERJAAN PONDASI",
+        "amount": 755437423.9
+      },
+      {
+        "no": "IV",
+        "name": "JUMLAH PEKERJAAN BETON BERTULANG",
+        "amount": 1399611998
+      },
+      {
+        "no": "V",
+        "name": "JUMLAH PEKERJAAN PLAT LANTAI",
+        "amount": 698319983.1
+      },
+      {
+        "no": "VI",
+        "name": "JUMLAH PEKERJAAN TANGGA",
+        "amount": 39588188.84
+      },
+      {
+        "no": "VII",
+        "name": "JUMLAH PEKERJAAN PINTU DAN JENDELA",
+        "amount": 70240179.29
+      },
+      {
+        "no": "VIII",
+        "name": "JUMLAH PEKERJAAN DINDING",
+        "amount": 478722270.7
+      },
+      {
+        "no": "IX",
+        "name": "JUMLAH PEKERJAAN PLAT DAK",
+        "amount": 141964080.5
+      },
+      {
+        "no": "X",
+        "name": "JUMLAH PEKERJAAN PLAFOND",
+        "amount": 934107751
+      },
+      {
+        "no": "XI",
+        "name": "JUMLAH PEKERJAAN LANTAI",
+        "amount": 605303090.9
+      },
+      {
+        "no": "XII",
+        "name": "JUMLAH PEKERJAAN KAMAR MANDI",
+        "amount": 128166150.9
+      },
+      {
+        "no": "XIII",
+        "name": "JUMLAH PEKERJAAN INSTALASI LISTRIK",
+        "amount": 87624504.96
+      },
+      {
+        "no": "XIV",
+        "name": "JUMLAH PEKERJAAN PENGECATAN",
+        "amount": 308668107.4
+      },
+      {
+        "no": "XV",
+        "name": "JUMLAH PEKERJAAN SANITASI",
+        "amount": 77759223.08
+      },
+      {
+        "no": "XVII",
+        "name": "JUMLAH PEKERJAAN SEPTICKTANK",
+        "amount": 15060639.91
+      },
+      {
+        "no": "XVIII",
+        "name": "JUMLAH PEKERJAAN LAIN LAIN",
+        "amount": 52865425.32
+      }
+    ],
+    "subtotal": 6061820904,
+    "ppn_percent": 11,
+    "ppn_amount": 666800299.4,
+    "total": 6728621203,
+    "total_rounded": 6728630000,
+    "terbilang": "TERBILANG : TIGA MILIAR TUJUH PULUH SATU JUTA LIMA RATUS RIBU RUPIAH",
+    "luas_bangunan": 405,
+    "biaya_per_m2": 16613901.23
+  },
+  "rabDetail": {
+    "title": "Rencana Anggaran Biaya Detail",
+    "items": [
+      {
+        "type": "category",
+        "no": "I",
+        "name": "PEKERJAAN PERSIAPAN"
+      },
+      {
+        "type": "item",
+        "no": "Pembersihan Lokasi",
+        "name": "Pembersihan Lokasi",
+        "code": "1.1.3.1",
+        "volume": 1479,
+        "unit": "M2",
+        "unit_price": 37950,
+        "total_price": 56128050,
+        "category": "PEKERJAAN PERSIAPAN"
+      },
+      {
+        "type": "item",
+        "no": "Pemasangan Bouwplank",
+        "name": "Pemasangan Bouwplank",
+        "code": "1.1.4.2",
+        "volume": 160,
+        "unit": "M'",
+        "unit_price": 110020.5,
+        "total_price": 17603280,
+        "category": "PEKERJAAN PERSIAPAN"
+      },
+      {
+        "type": "item",
+        "no": "Pembuatan Gudang",
+        "name": "Pembuatan Gudang",
+        "code": "1.1.2.3",
+        "volume": 16,
+        "unit": "M2",
+        "unit_price": 2925602.19,
+        "total_price": 46809635.01,
+        "category": "PEKERJAAN PERSIAPAN"
+      },
+      {
+        "type": "item",
+        "no": "PBG",
+        "name": "PBG",
+        "code": "LS",
+        "volume": 1,
+        "unit": "Paket",
+        "unit_price": 23351901.58,
+        "total_price": 23351901.58,
+        "category": "PEKERJAAN PERSIAPAN"
+      },
+      {
+        "type": "total",
+        "name": "TOTAL BIAYA",
+        "total_price": 143892866.6,
+        "category": "PEKERJAAN PERSIAPAN"
+      },
+      {
+        "type": "category",
+        "no": "II",
+        "name": "PEKERJAAN TANAH"
+      },
+      {
+        "type": "subcategory",
+        "no": "2.1",
+        "name": "Pondasi Footplat 1",
+        "category": "PEKERJAAN TANAH"
+      },
+      {
+        "type": "item",
+        "no": "2.1.1",
+        "name": "Penggalian tanah sedalam 1,8 m",
+        "code": "1.2.1.1.4",
+        "volume": 316.8,
+        "unit": "M3",
+        "unit_price": 201825,
+        "total_price": 63938160,
+        "category": "PEKERJAAN TANAH"
+      },
+      {
+        "type": "item",
+        "no": "2.1.2",
+        "name": "Pengurugan dengan pasir urug",
+        "code": "1.3.1.2",
+        "volume": 21.6,
+        "unit": "M3",
+        "unit_price": 67491.86,
+        "total_price": 1457824.11,
+        "category": "PEKERJAAN TANAH"
+      },
+      {
+        "type": "item",
+        "no": "2.1.3",
+        "name": "Pengurugan kembali galian tanah",
+        "code": "1.3.1.1",
+        "volume": 179.2,
+        "unit": "M3",
+        "unit_price": 112125,
+        "total_price": 20092800,
+        "category": "PEKERJAAN TANAH"
+      },
+      {
+        "type": "subcategory",
+        "no": "2.2",
+        "name": "Pondasi Footplat 2",
+        "category": "PEKERJAAN TANAH"
+      },
+      {
+        "type": "item",
+        "no": "2.2.1",
+        "name": "Penggalian tanah sedalam 1,8 m",
+        "code": "1.2.1.1.4",
+        "volume": 27.97,
+        "unit": "M3",
+        "unit_price": 201825,
+        "total_price": 5644641.6,
+        "category": "PEKERJAAN TANAH"
+      },
+      {
+        "type": "item",
+        "no": "2.2.2",
+        "name": "Pengurugan dengan pasir urug",
+        "code": "1.3.1.2",
+        "volume": 0.74,
+        "unit": "M3",
+        "unit_price": 67491.86,
+        "total_price": 49674.01,
+        "category": "PEKERJAAN TANAH"
+      },
+      {
+        "type": "item",
+        "no": "2.2.3",
+        "name": "Pengurugan kembali galian tanah",
+        "code": "1.3.1.1",
+        "volume": 15.87,
+        "unit": "M3",
+        "unit_price": 112125,
+        "total_price": 1779423.75,
+        "category": "PEKERJAAN TANAH"
+      },
+      {
+        "type": "subcategory",
+        "no": "2.4",
+        "name": "Pondasi Batu Belah",
+        "category": "PEKERJAAN TANAH"
+      },
+      {
+        "type": "item",
+        "no": "2.4.1",
+        "name": "Penggalian tanah sedalam 1,3 m",
+        "code": "1.2.1.1.4",
+        "volume": 132,
+        "unit": "M3",
+        "unit_price": 201825,
+        "total_price": 26640900,
+        "category": "PEKERJAAN TANAH"
+      },
+      {
+        "type": "item",
+        "no": "2.4.2",
+        "name": "Pengurugan dengan pasir urug",
+        "code": "1.3.1.2",
+        "volume": 6.6,
+        "unit": "M3",
+        "unit_price": 67491.86,
+        "total_price": 445446.26,
+        "category": "PEKERJAAN TANAH"
+      },
+      {
+        "type": "item",
+        "no": "2.4.3",
+        "name": "Pengurugan kembali galian tanah",
+        "code": "1.3.1.1",
+        "volume": 39.6,
+        "unit": "M3",
+        "unit_price": 112125,
+        "total_price": 4440150,
+        "category": "PEKERJAAN TANAH"
+      },
+      {
+        "type": "total",
+        "name": "TOTAL BIAYA",
+        "total_price": 124489019.7,
+        "category": "PEKERJAAN TANAH"
+      },
+      {
+        "type": "category",
+        "no": "III",
+        "name": "PEKERJAAN PONDASI"
+      },
+      {
+        "type": "category",
+        "no": "3.1",
+        "name": "Pondasi Batu Belah"
+      },
+      {
+        "type": "item",
+        "no": "3.1.1",
+        "name": "Pemasangan pondasi batu belah campuran 1SP : 3PP",
+        "code": "2.2.2.1.4",
+        "volume": 59.4,
+        "unit": "M3",
+        "unit_price": 5129892.4,
+        "total_price": 304715608.6,
+        "category": "Pondasi Batu Belah"
+      },
+      {
+        "type": "item",
+        "no": "3.1.2",
+        "name": "Pemasangan batu kosong (Anstamping)",
+        "code": "2.2.2.1.1",
+        "volume": 19.8,
+        "unit": "M3",
+        "unit_price": 1157208.07,
+        "total_price": 22912719.76,
+        "category": "Pondasi Batu Belah"
+      },
+      {
+        "type": "item",
+        "no": "3.1.3",
+        "name": "Urugan Pasir Bawah Pondasi",
+        "code": "1.3.1.2",
+        "volume": 6.6,
+        "unit": "M3",
+        "unit_price": 67491.86,
+        "total_price": 445446.26,
+        "category": "Pondasi Batu Belah"
+      },
+      {
+        "type": "subcategory",
+        "no": "3.2",
+        "name": "Pondasi Footplat 1",
+        "category": "Pondasi Batu Belah"
+      },
+      {
+        "type": "item",
+        "no": "3.2.1",
+        "name": "Membuat lantai kerja beton mutu fc' = 7,5 Mpa",
+        "code": "2.2.1.4.1",
+        "volume": 21.6,
+        "unit": "M3",
+        "unit_price": 910284.18,
+        "total_price": 19662138.3,
+        "category": "Pondasi Batu Belah"
+      },
+      {
+        "type": "item",
+        "no": "3.2.2",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "volume": 94.4,
+        "unit": "M3",
+        "unit_price": 1052617.48,
+        "total_price": 99367089.76,
+        "category": "Pondasi Batu Belah"
+      },
+      {
+        "type": "item",
+        "no": "3.2.3",
+        "name": "Pemasangan bekisting untuk pondasi",
+        "code": "2.2.1.3.1",
+        "volume": 192,
+        "unit": "M2",
+        "unit_price": 73174.5,
+        "total_price": 14049504,
+        "category": "Pondasi Batu Belah"
+      },
+      {
+        "type": "item",
+        "no": "3.2.4.1",
+        "name": "Ǿ 16",
+        "code": "2.2.1.1.4",
+        "volume": 10987.93,
+        "unit": "kg",
+        "unit_price": 18293.69,
+        "total_price": 201009777.5,
+        "category": "Pondasi Batu Belah"
+      },
+      {
+        "type": "item",
+        "no": "3.2.4.3",
+        "name": "Ǿ 8",
+        "code": "2.2.1.1.3",
+        "volume": 1113.56,
+        "unit": "kg",
+        "unit_price": 26086.89,
+        "total_price": 29049360.24,
+        "category": "Pondasi Batu Belah"
+      },
+      {
+        "type": "subcategory",
+        "no": "3.3",
+        "name": "Pondasi Footplat 2",
+        "category": "Pondasi Batu Belah"
+      },
+      {
+        "type": "item",
+        "no": "3.3.1",
+        "name": "Membuat lantai kerja beton mutu fc' = 7,5 Mpa",
+        "code": "2.2.1.4.1",
+        "volume": 0.74,
+        "unit": "M3",
+        "unit_price": 910284.18,
+        "total_price": 669969.16,
+        "category": "Pondasi Batu Belah"
+      },
+      {
+        "type": "item",
+        "no": "3.3.2",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "volume": 7.52,
+        "unit": "M3",
+        "unit_price": 1052617.48,
+        "total_price": 7916736.04,
+        "category": "Pondasi Batu Belah"
+      },
+      {
+        "type": "item",
+        "no": "3.3.3",
+        "name": "Pemasangan bekisting untuk pondasi",
+        "code": "2.2.1.3.1",
+        "volume": 63.48,
+        "unit": "M2",
+        "unit_price": 73174.5,
+        "total_price": 4645117.26,
+        "category": "Pondasi Batu Belah"
+      },
+      {
+        "type": "item",
+        "no": "3.3.4.1",
+        "name": "Ǿ 16",
+        "code": "2.2.1.1.4",
+        "volume": 1292.07,
+        "unit": "kg",
+        "unit_price": 18293.69,
+        "total_price": 23636662.14,
+        "category": "Pondasi Batu Belah"
+      },
+      {
+        "type": "item",
+        "no": "3.3.4.3",
+        "name": "Ǿ 8",
+        "code": "2.2.1.1.3",
+        "volume": 105.53,
+        "unit": "kg",
+        "unit_price": 26086.89,
+        "total_price": 2752985.1,
+        "category": "Pondasi Batu Belah"
+      },
+      {
+        "type": "item",
+        "no": "Cerucuk Kayu Galam Ǿ 12 cm",
+        "name": "Cerucuk Kayu Galam Ǿ 12 cm",
+        "code": "2.6.2.1",
+        "volume": 236,
+        "unit": "Bh",
+        "unit_price": 104255.55,
+        "total_price": 24604309.8,
+        "category": "Pondasi Batu Belah"
+      },
+      {
+        "type": "total",
+        "name": "TOTAL BIAYA",
+        "total_price": 755437423.9,
+        "category": "Pondasi Batu Belah"
+      },
+      {
+        "type": "category",
+        "no": "IV",
+        "name": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "subcategory",
+        "no": "4.1",
+        "name": "SLOOF 20/30",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.1.1",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "volume": 8.25,
+        "unit": "M3",
+        "unit_price": 1052617.48,
+        "total_price": 8684094.18,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.1.2",
+        "name": "Pemasangan bekisting untuk sloof",
+        "code": "2.2.1.3.2",
+        "volume": 82.5,
+        "unit": "M2",
+        "unit_price": 74623.5,
+        "total_price": 6156438.75,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.1.3.1",
+        "name": "D13",
+        "code": "2.2.1.1.4",
+        "volume": 705.87,
+        "unit": "Kg",
+        "unit_price": 15923.87,
+        "total_price": 11240165.18,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.1.3.2",
+        "name": "Ǿ 10",
+        "code": "2.2.1.1.3",
+        "volume": 594.73,
+        "unit": "Kg",
+        "unit_price": 24938.46,
+        "total_price": 14831560.94,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "subcategory",
+        "no": "4.2",
+        "name": "KOLOM 30/30 Lantai 1",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.2.1",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "volume": 40,
+        "unit": "M3",
+        "unit_price": 1052617.48,
+        "total_price": 42104699.05,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.2.2",
+        "name": "Pemasangan bekisting untuk kolom",
+        "code": "2.2.1.3.3",
+        "volume": 320,
+        "unit": "M2",
+        "unit_price": 228592.4,
+        "total_price": 73149568,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.2.3.1",
+        "name": "D 13",
+        "code": "2.2.1.1.4",
+        "volume": 4059.07,
+        "unit": "Kg",
+        "unit_price": 15923.87,
+        "total_price": 64636122.88,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.2.3.2",
+        "name": "Ǿ 10",
+        "code": "2.2.1.1.3",
+        "volume": 1930.17,
+        "unit": "Kg",
+        "unit_price": 24938.46,
+        "total_price": 48135562.52,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "subcategory",
+        "no": "4.2",
+        "name": "KOLOM 30/30 Lantai 2",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.2.1",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "volume": 67.5,
+        "unit": "M3",
+        "unit_price": 1052617.48,
+        "total_price": 71051679.65,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.2.2",
+        "name": "Pemasangan bekisting untuk kolom",
+        "code": "2.2.1.3.3",
+        "volume": 540,
+        "unit": "M2",
+        "unit_price": 228592.4,
+        "total_price": 123439896,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.2.3.1",
+        "name": "D 13",
+        "code": "2.2.1.1.4",
+        "volume": 6833.32,
+        "unit": "Kg",
+        "unit_price": 15923.87,
+        "total_price": 108812931.6,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.2.3.2",
+        "name": "Ǿ 10",
+        "code": "2.2.1.1.3",
+        "volume": 3194.53,
+        "unit": "Kg",
+        "unit_price": 24938.46,
+        "total_price": 79666670.17,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "subcategory",
+        "no": "4.4",
+        "name": "KOLOM 15/15 Lantai 1",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.4.1",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "volume": 0.68,
+        "unit": "M3",
+        "unit_price": 1052617.48,
+        "total_price": 710516.8,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.4.2",
+        "name": "Pemasangan bekisting untuk kolom",
+        "code": "2.2.1.3.3",
+        "volume": 18,
+        "unit": "M2",
+        "unit_price": 228592.4,
+        "total_price": 4114663.2,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.4.3.1",
+        "name": "D 10",
+        "code": "2.2.1.1.3",
+        "volume": 107.11,
+        "unit": "Kg",
+        "unit_price": 24938.46,
+        "total_price": 2671035.28,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.4.3.2",
+        "name": "Ǿ 8",
+        "code": "2.2.1.1.3",
+        "volume": 44.88,
+        "unit": "Kg",
+        "unit_price": 26086.89,
+        "total_price": 1170900.72,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "subcategory",
+        "no": "4.4",
+        "name": "KOLOM 15/15 Lantai 2",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.4.1",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "volume": 3.04,
+        "unit": "M3",
+        "unit_price": 1052617.48,
+        "total_price": 3197325.58,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.4.2",
+        "name": "Pemasangan bekisting untuk kolom",
+        "code": "2.2.1.3.3",
+        "volume": 81,
+        "unit": "M2",
+        "unit_price": 228592.4,
+        "total_price": 18515984.4,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.4.3.1",
+        "name": "D 10",
+        "code": "2.2.1.1.3",
+        "volume": 480.95,
+        "unit": "Kg",
+        "unit_price": 24938.46,
+        "total_price": 11994125.75,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.4.3.2",
+        "name": "Ǿ 8",
+        "code": "2.2.1.1.3",
+        "volume": 196.26,
+        "unit": "Kg",
+        "unit_price": 26086.89,
+        "total_price": 5119929.08,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "subcategory",
+        "no": "4.5",
+        "name": "Balok 25/35",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.5.1",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "volume": 65.92,
+        "unit": "M3",
+        "unit_price": 1052617.48,
+        "total_price": 69393807.12,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.5.2",
+        "name": "Pemasangan bekisting untuk balok",
+        "code": "2.2.1.3.4",
+        "volume": 527.4,
+        "unit": "M2",
+        "unit_price": 230276.86,
+        "total_price": 121448017.3,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.5.3.1",
+        "name": "D 13",
+        "code": "2.2.1.1.4",
+        "volume": 3718.94,
+        "unit": "Kg",
+        "unit_price": 15923.87,
+        "total_price": 59219931.09,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.5.3.2",
+        "name": "Ǿ 10",
+        "code": "2.2.1.1.3",
+        "volume": 3617.59,
+        "unit": "Kg",
+        "unit_price": 24938.46,
+        "total_price": 90217250.84,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "subcategory",
+        "no": "4.7",
+        "name": "Balok 15/20",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.7.1",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "volume": 1.54,
+        "unit": "M3",
+        "unit_price": 1052617.48,
+        "total_price": 1621030.91,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.7.2",
+        "name": "Pemasangan bekisting untuk balok",
+        "code": "2.2.1.3.4",
+        "volume": 15.4,
+        "unit": "M2",
+        "unit_price": 230276.86,
+        "total_price": 3546263.68,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.7.3.1",
+        "name": "D 13",
+        "code": "2.2.1.1.4",
+        "volume": 142.15,
+        "unit": "Kg",
+        "unit_price": 15923.87,
+        "total_price": 2263533.97,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.7.3.2",
+        "name": "Ǿ 10",
+        "code": "2.2.1.1.3",
+        "volume": 103.29,
+        "unit": "Kg",
+        "unit_price": 24938.46,
+        "total_price": 2575789.29,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "subcategory",
+        "no": "4.8",
+        "name": "Ring Balok 25/35",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.8.1",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "volume": 62.21,
+        "unit": "M3",
+        "unit_price": 1052617.48,
+        "total_price": 65485964.74,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.8.2",
+        "name": "Pemasangan bekisting untuk balok",
+        "code": "2.2.1.3.4",
+        "volume": 497.7,
+        "unit": "M2",
+        "unit_price": 230276.86,
+        "total_price": 114608794.5,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.8.3.1",
+        "name": "D 13",
+        "code": "2.2.1.1.4",
+        "volume": 2916.16,
+        "unit": "Kg",
+        "unit_price": 15923.87,
+        "total_price": 46436561.71,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.8.3.2",
+        "name": "Ǿ 10",
+        "code": "2.2.1.1.3",
+        "volume": 3413.98,
+        "unit": "Kg",
+        "unit_price": 24938.46,
+        "total_price": 85139530.01,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.8.1",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "volume": 6.16,
+        "unit": "M3",
+        "unit_price": 1052617.48,
+        "total_price": 6484123.65,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.8.2",
+        "name": "Pemasangan bekisting untuk balok",
+        "code": "2.2.1.3.4",
+        "volume": 61.6,
+        "unit": "M2",
+        "unit_price": 230276.86,
+        "total_price": 14185054.73,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.8.3.1",
+        "name": "D 13",
+        "code": "2.2.1.1.4",
+        "volume": 464.09,
+        "unit": "Kg",
+        "unit_price": 15923.87,
+        "total_price": 7390103.89,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.8.3.2",
+        "name": "Ǿ 10",
+        "code": "2.2.1.1.3",
+        "volume": 408.7,
+        "unit": "Kg",
+        "unit_price": 24938.46,
+        "total_price": 10192370.54,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "total",
+        "name": "TOTAL BIAYA",
+        "total_price": 1399611998,
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "category",
+        "no": "V",
+        "name": "PEKERJAAN PLAT LANTAI"
+      },
+      {
+        "type": "category",
+        "no": "5.1",
+        "name": "Plat Lantai"
+      },
+      {
+        "type": "item",
+        "no": "5.1.1",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "volume": 105.06,
+        "unit": "M3",
+        "unit_price": 1044136.34,
+        "total_price": 109696964.1,
+        "category": "Plat Lantai"
+      },
+      {
+        "type": "item",
+        "no": "5.1.2",
+        "name": "Pemasangan bekisting untuk lantai",
+        "code": "2.2.1.3.5",
+        "volume": 875.5,
+        "unit": "M2",
+        "unit_price": 487721.23,
+        "total_price": 426999936.1,
+        "category": "Plat Lantai"
+      },
+      {
+        "type": "item",
+        "no": "5.1.3",
+        "name": "Pembesian dengan besi polos Ø10",
+        "code": "2.2.1.1.1",
+        "volume": 8319.81,
+        "unit": "Kg",
+        "unit_price": 19426.3,
+        "total_price": 161623082.8,
+        "category": "Plat Lantai"
+      },
+      {
+        "type": "total",
+        "name": "TOTAL BIAYA",
+        "total_price": 698319983.1,
+        "category": "Plat Lantai"
+      },
+      {
+        "type": "category",
+        "no": "VI",
+        "name": "PEKERJAAN TANGGA"
+      },
+      {
+        "type": "subcategory",
+        "no": "6.1",
+        "name": "Pekerjaan Induk Tangga",
+        "category": "PEKERJAAN TANGGA"
+      },
+      {
+        "type": "item",
+        "no": "6.1.1",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "volume": 4.33,
+        "unit": "M3",
+        "unit_price": 1052617.48,
+        "total_price": 4562716.31,
+        "category": "PEKERJAAN TANGGA"
+      },
+      {
+        "type": "item",
+        "no": "6.1.2",
+        "name": "Pemasangan bekisting untuk tangga",
+        "code": "2.2.1.3.7",
+        "volume": 34.88,
+        "unit": "M2",
+        "unit_price": 228618.08,
+        "total_price": 7973376.24,
+        "category": "PEKERJAAN TANGGA"
+      },
+      {
+        "type": "item",
+        "no": "6.1.3.1",
+        "name": "Ǿ10",
+        "code": "2.2.1.1.3",
+        "volume": 413.11,
+        "unit": "Kg",
+        "unit_price": 24938.46,
+        "total_price": 10302377.05,
+        "category": "PEKERJAAN TANGGA"
+      },
+      {
+        "type": "subcategory",
+        "no": "6.2",
+        "name": "Pekerjaan Bordes Tangga",
+        "category": "PEKERJAAN TANGGA"
+      },
+      {
+        "type": "item",
+        "no": "6.2.1",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "volume": 0.46,
+        "unit": "M3",
+        "unit_price": 1052617.48,
+        "total_price": 480783.03,
+        "category": "PEKERJAAN TANGGA"
+      },
+      {
+        "type": "item",
+        "no": "6.2.2",
+        "name": "Pemasangan bekisting untuk tangga",
+        "code": "2.2.1.3.7",
+        "volume": 3.04,
+        "unit": "M2",
+        "unit_price": 228618.08,
+        "total_price": 696142.06,
+        "category": "PEKERJAAN TANGGA"
+      },
+      {
+        "type": "item",
+        "no": "6.2.3.1",
+        "name": "Ǿ10",
+        "code": "2.2.1.1.3",
+        "volume": 23.29,
+        "unit": "Kg",
+        "unit_price": 24938.46,
+        "total_price": 580706.62,
+        "category": "PEKERJAAN TANGGA"
+      },
+      {
+        "type": "subcategory",
+        "no": "6.4",
+        "name": "Pekerjaan Anak Tangga",
+        "category": "PEKERJAAN TANGGA"
+      },
+      {
+        "type": "item",
+        "no": "6.4.1",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "volume": 3.48,
+        "unit": "M3",
+        "unit_price": 1052617.48,
+        "total_price": 3663108.82,
+        "category": "PEKERJAAN TANGGA"
+      },
+      {
+        "type": "item",
+        "no": "6.4.2",
+        "name": "Pemasangan bekisting untuk tangga",
+        "code": "2.2.1.3.7",
+        "volume": 18.6,
+        "unit": "M2",
+        "unit_price": 228618.08,
+        "total_price": 4252296.35,
+        "category": "PEKERJAAN TANGGA"
+      },
+      {
+        "type": "item",
+        "no": "6.4.3.1",
+        "name": "Ǿ10",
+        "code": "2.2.1.1.3",
+        "volume": 205.98,
+        "unit": "Kg",
+        "unit_price": 24938.46,
+        "total_price": 5136807.04,
+        "category": "PEKERJAAN TANGGA"
+      },
+      {
+        "type": "item",
+        "no": "6.4.3.2",
+        "name": "Ǿ8",
+        "code": "2.2.1.1.3",
+        "volume": 74.36,
+        "unit": "Kg",
+        "unit_price": 26086.89,
+        "total_price": 1939875.33,
+        "category": "PEKERJAAN TANGGA"
+      },
+      {
+        "type": "total",
+        "name": "TOTAL BIAYA",
+        "total_price": 39588188.84,
+        "category": "PEKERJAAN TANGGA"
+      },
+      {
+        "type": "category",
+        "no": "VII",
+        "name": "KUSEN PINTU DAN JENDELA"
+      },
+      {
+        "type": "item",
+        "no": "Pembuatan dan pemasangan kusen pintu dan kusen jendela",
+        "name": "Pembuatan dan pemasangan kusen pintu dan kusen jendela",
+        "code": "3.11.3.4",
+        "volume": 2.38,
+        "unit": "M3",
+        "unit_price": 159812.17,
+        "total_price": 380250.67,
+        "category": "KUSEN PINTU DAN JENDELA"
+      },
+      {
+        "type": "item",
+        "no": "Pembuatan dan pemasangan pintu dan jendela kaca",
+        "name": "Pembuatan dan pemasangan pintu dan jendela kaca",
+        "code": "3.11.1.9",
+        "volume": 88.37,
+        "unit": "M2",
+        "unit_price": 289066.3,
+        "total_price": 25544927.68,
+        "category": "KUSEN PINTU DAN JENDELA"
+      },
+      {
+        "type": "item",
+        "no": "Pemasangan kaca tebal 5 mm",
+        "name": "Pemasangan kaca tebal 5 mm",
+        "code": "3.12.3",
+        "volume": 48.41,
+        "unit": "M2",
+        "unit_price": 188899,
+        "total_price": 9144849.94,
+        "category": "KUSEN PINTU DAN JENDELA"
+      },
+      {
+        "type": "subcategory",
+        "no": "7.4",
+        "name": "Pekerjaan Kunci",
+        "category": "KUSEN PINTU DAN JENDELA"
+      },
+      {
+        "type": "item",
+        "no": "7.5.1.1",
+        "name": "Pemasangan engsel pintu",
+        "code": "3.11.4.5",
+        "volume": 87,
+        "unit": "Bh",
+        "unit_price": 71817.5,
+        "total_price": 6248122.5,
+        "category": "KUSEN PINTU DAN JENDELA"
+      },
+      {
+        "type": "item",
+        "no": "7.5.1.2",
+        "name": "Pemasangan engsel jendela",
+        "code": "3.11.4.15",
+        "volume": 61,
+        "unit": "Bh",
+        "unit_price": 73933.5,
+        "total_price": 4509943.5,
+        "category": "KUSEN PINTU DAN JENDELA"
+      },
+      {
+        "type": "item",
+        "no": "7.4.2",
+        "name": "Pemasangan kunci tanam biasa",
+        "code": "3.11.4.2",
+        "volume": 29,
+        "unit": "Bh",
+        "unit_price": 301185,
+        "total_price": 8734365,
+        "category": "KUSEN PINTU DAN JENDELA"
+      },
+      {
+        "type": "item",
+        "no": "7.4.3",
+        "name": "Pemasangan grendel",
+        "code": "3.11.4.20",
+        "volume": 61,
+        "unit": "Bh",
+        "unit_price": 95335,
+        "total_price": 5815435,
+        "category": "KUSEN PINTU DAN JENDELA"
+      },
+      {
+        "type": "item",
+        "no": "7.4.4",
+        "name": "Pemasangan kait angin",
+        "code": "3.11.4.18",
+        "volume": 61,
+        "unit": "Bh",
+        "unit_price": 71185,
+        "total_price": 4342285,
+        "category": "KUSEN PINTU DAN JENDELA"
+      },
+      {
+        "type": "item",
+        "no": "Pemasangan Pintu Harmonika",
+        "name": "Pemasangan Pintu Harmonika",
+        "code": "Ls",
+        "volume": 1,
+        "unit": "Bh",
+        "unit_price": 4800000,
+        "total_price": 5520000,
+        "category": "KUSEN PINTU DAN JENDELA"
+      },
+      {
+        "type": "total",
+        "name": "TOTAL BIAYA",
+        "total_price": 70240179.29,
+        "category": "KUSEN PINTU DAN JENDELA"
+      },
+      {
+        "type": "category",
+        "no": "VIII",
+        "name": "PEKERJAAN DINDING DAN PLESTERAN"
+      },
+      {
+        "type": "item",
+        "no": "Pemasangan dinding bata merah",
+        "name": "Pemasangan dinding bata merah",
+        "code": "3.6.1.7",
+        "volume": 878.21,
+        "unit": "M2",
+        "unit_price": 213786.15,
+        "total_price": 187748065.9,
+        "category": "PEKERJAAN DINDING DAN PLESTERAN"
+      },
+      {
+        "type": "item",
+        "no": "Pemasangan plesteran 1SP : 3PP tebal 15 mm",
+        "name": "Pemasangan plesteran 1SP : 3PP tebal 15 mm",
+        "code": "3.7.3",
+        "volume": 1756.41,
+        "unit": "M2",
+        "unit_price": 93369.42,
+        "total_price": 163994983,
+        "category": "PEKERJAAN DINDING DAN PLESTERAN"
+      },
+      {
+        "type": "item",
+        "no": "Pemasangan Acian",
+        "name": "Pemasangan Acian",
+        "code": "3.7.8",
+        "volume": 1756.41,
+        "unit": "M2",
+        "unit_price": 72294.75,
+        "total_price": 126979221.8,
+        "category": "PEKERJAAN DINDING DAN PLESTERAN"
+      },
+      {
+        "type": "total",
+        "name": "TOTAL BIAYA",
+        "total_price": 478722270.7,
+        "category": "PEKERJAAN DINDING DAN PLESTERAN"
+      },
+      {
+        "type": "category",
+        "no": "IX",
+        "name": "PEKERJAAN PLAT DAK"
+      },
+      {
+        "type": "category",
+        "no": "5.1",
+        "name": "Plat Dak"
+      },
+      {
+        "type": "item",
+        "no": "5.1.1",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "volume": 19.78,
+        "unit": "M3",
+        "unit_price": 1052617.48,
+        "total_price": 20825758.88,
+        "category": "Plat Dak"
+      },
+      {
+        "type": "item",
+        "no": "5.1.2",
+        "name": "Pemasangan bekisting untuk plat dak",
+        "code": "2.2.1.3.5",
+        "volume": 164.87,
+        "unit": "M2",
+        "unit_price": 487721.23,
+        "total_price": 80411964.67,
+        "category": "Plat Dak"
+      },
+      {
+        "type": "item",
+        "no": "5.1.3",
+        "name": "Pembesian dengan besi polos Ø10",
+        "code": "2.2.1.1.1",
+        "volume": 2096.45,
+        "unit": "Kg",
+        "unit_price": 19426.3,
+        "total_price": 40726356.93,
+        "category": "Plat Dak"
+      },
+      {
+        "type": "total",
+        "name": "TOTAL BIAYA",
+        "total_price": 141964080.5,
+        "category": "Plat Dak"
+      },
+      {
+        "type": "category",
+        "no": "X",
+        "name": "PEKERJAAN PLAFOND"
+      },
+      {
+        "type": "item",
+        "no": "Pemasangan Rangka Langit - Langit",
+        "name": "Pemasangan Rangka Langit - Langit",
+        "code": "3.5.3.1",
+        "volume": 2588,
+        "unit": "M2",
+        "unit_price": 216844,
+        "total_price": 561192272,
+        "category": "PEKERJAAN PLAFOND"
+      },
+      {
+        "type": "item",
+        "no": "Pemasangan Plafond",
+        "name": "Pemasangan Plafond",
+        "code": "3.5.2.1",
+        "volume": 2588,
+        "unit": "M2",
+        "unit_price": 99209.58,
+        "total_price": 256754393,
+        "category": "PEKERJAAN PLAFOND"
+      },
+      {
+        "type": "item",
+        "no": "Pemasangan Lis Plafond",
+        "name": "Pemasangan Lis Plafond",
+        "code": "3.5.2.6",
+        "volume": 2588,
+        "unit": "M",
+        "unit_price": 44884.5,
+        "total_price": 116161086,
+        "category": "PEKERJAAN PLAFOND"
+      },
+      {
+        "type": "total",
+        "name": "TOTAL BIAYA",
+        "total_price": 934107751,
+        "category": "PEKERJAAN PLAFOND"
+      },
+      {
+        "type": "category",
+        "no": "XI",
+        "name": "PEMASANGAN LANTAI"
+      },
+      {
+        "type": "subcategory",
+        "no": "11.1",
+        "name": "Pekerjaan Lantai 1",
+        "category": "PEMASANGAN LANTAI"
+      },
+      {
+        "type": "item",
+        "no": "11.1.1",
+        "name": "Pengurugan dengan pasir urug",
+        "code": "1.3.1.2",
+        "volume": 74.28,
+        "unit": "M3",
+        "unit_price": 370875,
+        "total_price": 27548595,
+        "category": "PEMASANGAN LANTAI"
+      },
+      {
+        "type": "item",
+        "no": "11.1.2",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "volume": 74.28,
+        "unit": "M3",
+        "unit_price": 1052617.48,
+        "total_price": 78188426.14,
+        "category": "PEMASANGAN LANTAI"
+      },
+      {
+        "type": "item",
+        "no": "11.1.3",
+        "name": "Pemasangan spesi",
+        "code": "3.7.2",
+        "volume": 29.71,
+        "unit": "M3",
+        "unit_price": 95861.7,
+        "total_price": 2848242.83,
+        "category": "PEMASANGAN LANTAI"
+      },
+      {
+        "type": "item",
+        "no": "11.1.4",
+        "name": "Pemasangan paving block",
+        "code": "3.9.8.6",
+        "volume": 1485.6,
+        "unit": "M1",
+        "unit_price": 118629.4,
+        "total_price": 176235836.6,
+        "category": "PEMASANGAN LANTAI"
+      },
+      {
+        "type": "subcategory",
+        "no": "11.2",
+        "name": "Pekerjaan Lantai 2",
+        "category": "PEMASANGAN LANTAI"
+      },
+      {
+        "type": "item",
+        "no": "11.2.1",
+        "name": "Pemasangan spesi",
+        "code": "3.7.2",
+        "volume": 25.5,
+        "unit": "M3",
+        "unit_price": 95861.7,
+        "total_price": 2444473.35,
+        "category": "PEMASANGAN LANTAI"
+      },
+      {
+        "type": "item",
+        "no": "11.2.2",
+        "name": "Pemasangan lantai keramik ukuran 40 cm x 40 cm",
+        "code": "3.9.8.6",
+        "volume": 1289,
+        "unit": "M2",
+        "unit_price": 237462.01,
+        "total_price": 306088524.4,
+        "category": "PEMASANGAN LANTAI"
+      },
+      {
+        "type": "item",
+        "no": "11.1.5",
+        "name": "Pemasangan lantai keramik ukuran 30 cm x 30 cm",
+        "code": "3.9.8.4",
+        "volume": 22.5,
+        "unit": "M2",
+        "unit_price": 204972.88,
+        "total_price": 4611889.9,
+        "category": "PEMASANGAN LANTAI"
+      },
+      {
+        "type": "item",
+        "no": "11.1.6",
+        "name": "Pemasangan lantai keramik ukuran 20 cm x 20 cm",
+        "code": "3.9.8.1",
+        "volume": 36,
+        "unit": "M2",
+        "unit_price": 203808.4,
+        "total_price": 7337102.58,
+        "category": "PEMASANGAN LANTAI"
+      },
+      {
+        "type": "total",
+        "name": "TOTAL BIAYA",
+        "total_price": 605303090.9,
+        "category": "PEMASANGAN LANTAI"
+      },
+      {
+        "type": "category",
+        "no": "XII",
+        "name": "PEKERJAAN KAMAR MANDI / WC"
+      },
+      {
+        "type": "subcategory",
+        "no": "12.1",
+        "name": "Kamar Mandi",
+        "category": "PEKERJAAN KAMAR MANDI / WC"
+      },
+      {
+        "type": "item",
+        "no": "12.1.1",
+        "name": "Keramik Dinding Kamar Mandi (20/20)",
+        "code": "3.10.1.4",
+        "volume": 76.56,
+        "unit": "M3",
+        "unit_price": 1347222.7,
+        "total_price": 103143369.9,
+        "category": "PEKERJAAN KAMAR MANDI / WC"
+      },
+      {
+        "type": "item",
+        "no": "12.1.2",
+        "name": "Pemasangan kloset duduk",
+        "code": "3.18.3.1",
+        "volume": 6,
+        "unit": "Bh",
+        "unit_price": 4052600,
+        "total_price": 24315600,
+        "category": "PEKERJAAN KAMAR MANDI / WC"
+      },
+      {
+        "type": "item",
+        "no": "12.1.5",
+        "name": "Pemasangan Floor Drain",
+        "code": "3.18.6.1",
+        "volume": 6,
+        "unit": "Bh",
+        "unit_price": 117863.5,
+        "total_price": 707181,
+        "category": "PEKERJAAN KAMAR MANDI / WC"
+      },
+      {
+        "type": "total",
+        "name": "TOTAL BIAYA",
+        "total_price": 128166150.9,
+        "category": "PEKERJAAN KAMAR MANDI / WC"
+      },
+      {
+        "type": "category",
+        "no": "XIII",
+        "name": "PEKERJAAN INSTALASI LISTRIK"
+      },
+      {
+        "type": "subcategory",
+        "no": "13.1",
+        "name": "Pemasangan Titik Lampu",
+        "category": "PEKERJAAN INSTALASI LISTRIK"
+      },
+      {
+        "type": "item",
+        "no": "13.1.3",
+        "name": "Lampu LED 19 watt",
+        "code": "5.3.1.6",
+        "volume": 108,
+        "unit": "Bh",
+        "unit_price": 151874.75,
+        "total_price": 16402473,
+        "category": "PEKERJAAN INSTALASI LISTRIK"
+      },
+      {
+        "type": "item",
+        "no": "13.1.3",
+        "name": "Lampu LED 19 watt",
+        "code": null,
+        "volume": 52,
+        "unit": "Bh",
+        "unit_price": 458004.75,
+        "total_price": 23816247,
+        "category": "PEKERJAAN INSTALASI LISTRIK"
+      },
+      {
+        "type": "subcategory",
+        "no": "13.2",
+        "name": "Pemasangan Saklar",
+        "category": "PEKERJAAN INSTALASI LISTRIK"
+      },
+      {
+        "type": "item",
+        "no": "13.2.1",
+        "name": "Saklar Tunggal",
+        "code": "5.1.5.1",
+        "volume": 18,
+        "unit": "Bh",
+        "unit_price": 46172.5,
+        "total_price": 831105,
+        "category": "PEKERJAAN INSTALASI LISTRIK"
+      },
+      {
+        "type": "item",
+        "no": "13.2.2",
+        "name": "Saklar Ganda",
+        "code": "5.1.5.2",
+        "volume": 2,
+        "unit": "Bh",
+        "unit_price": 46172.5,
+        "total_price": 92345,
+        "category": "PEKERJAAN INSTALASI LISTRIK"
+      },
+      {
+        "type": "item",
+        "no": "Pemasangan Stop Kontak",
+        "name": "Pemasangan Stop Kontak",
+        "code": "5.1.5.13",
+        "volume": 20,
+        "unit": "Bh",
+        "unit_price": 546031.5,
+        "total_price": 10920630,
+        "category": "PEKERJAAN INSTALASI LISTRIK"
+      },
+      {
+        "type": "item",
+        "no": "Pemasangan Box Meteran PLN",
+        "name": "Pemasangan Box Meteran PLN",
+        "code": "5.1.6.1",
+        "volume": 1,
+        "unit": "Bh",
+        "unit_price": 562844.5,
+        "total_price": 562844.5,
+        "category": "PEKERJAAN INSTALASI LISTRIK"
+      },
+      {
+        "type": "item",
+        "no": "Pemasangan MCB",
+        "name": "Pemasangan MCB",
+        "code": "5.1.2.24",
+        "volume": 1,
+        "unit": "Bh",
+        "unit_price": 105722.95,
+        "total_price": 105722.95,
+        "category": "PEKERJAAN INSTALASI LISTRIK"
+      },
+      {
+        "type": "item",
+        "no": "Pemasangan Kabel",
+        "name": "Pemasangan Kabel",
+        "code": "5.1.1.2.9",
+        "volume": 1568.46,
+        "unit": "M",
+        "unit_price": 22246.75,
+        "total_price": 34893137.51,
+        "category": "PEKERJAAN INSTALASI LISTRIK"
+      },
+      {
+        "type": "total",
+        "name": "TOTAL BIAYA",
+        "total_price": 87624504.96,
+        "category": "PEKERJAAN INSTALASI LISTRIK"
+      },
+      {
+        "type": "category",
+        "no": "XIV",
+        "name": "PEKERJAAN PENGECATAN"
+      },
+      {
+        "type": "item",
+        "no": "Pengecatan 1 m2 Tembok Baru Interior",
+        "name": "Pengecatan 1 m2 Tembok Baru Interior",
+        "code": "3.8.10.1",
+        "volume": 1756.41,
+        "unit": "M2",
+        "unit_price": 74175.57,
+        "total_price": 130282721.7,
+        "category": "PEKERJAAN PENGECATAN"
+      },
+      {
+        "type": "item",
+        "no": "Pengecatan 1 m2 Tembok Baru Eksterior",
+        "name": "Pengecatan 1 m2 Tembok Baru Eksterior",
+        "code": "3.8.10.2",
+        "volume": 1756.41,
+        "unit": "M2",
+        "unit_price": 88450.52,
+        "total_price": 155355386.6,
+        "category": "PEKERJAAN PENGECATAN"
+      },
+      {
+        "type": "item",
+        "no": "Pekerjaan cat kusen dan daun",
+        "name": "Pekerjaan cat kusen dan daun",
+        "code": "3.8.4",
+        "volume": 35.47,
+        "unit": "M2",
+        "unit_price": 73705.8,
+        "total_price": 2614197.31,
+        "category": "PEKERJAAN PENGECATAN"
+      },
+      {
+        "type": "item",
+        "no": "Pengecatan 1 m2 Plafond Interior",
+        "name": "Pengecatan 1 m2 Plafond Interior",
+        "code": "3.8.20.1",
+        "volume": 393,
+        "unit": "M2",
+        "unit_price": 51948.61,
+        "total_price": 20415801.77,
+        "category": "PEKERJAAN PENGECATAN"
+      },
+      {
+        "type": "total",
+        "name": "TOTAL BIAYA",
+        "total_price": 308668107.4,
+        "category": "PEKERJAAN PENGECATAN"
+      },
+      {
+        "type": "category",
+        "no": "XV",
+        "name": "PEKERJAAN AIR BERSIH DAN AIR KOTOR"
+      },
+      {
+        "type": "subcategory",
+        "no": "15.1",
+        "name": "Pekerjaan Sanitasi",
+        "category": "PEKERJAAN AIR BERSIH DAN AIR KOTOR"
+      },
+      {
+        "type": "item",
+        "no": "15.1.1",
+        "name": "Pemasangan pipa PVC tipe AW diameter 1/2\"",
+        "code": "6.4.1.1",
+        "volume": 97.14,
+        "unit": "M'",
+        "unit_price": 54455.38,
+        "total_price": 5289795.13,
+        "category": "PEKERJAAN AIR BERSIH DAN AIR KOTOR"
+      },
+      {
+        "type": "item",
+        "no": "15.1.2",
+        "name": "Pemasangan pipa PVC tipe D diameter 4\"",
+        "code": "6.4.1.9",
+        "volume": 196.5,
+        "unit": "M'",
+        "unit_price": 250060.31,
+        "total_price": 49136851.41,
+        "category": "PEKERJAAN AIR BERSIH DAN AIR KOTOR"
+      },
+      {
+        "type": "item",
+        "no": "15.1.3",
+        "name": "Pemasangan kran diameter 1/2\"",
+        "code": "3.18.6.2.1",
+        "volume": 11,
+        "unit": "Bh",
+        "unit_price": 124087.88,
+        "total_price": 1364966.62,
+        "category": "PEKERJAAN AIR BERSIH DAN AIR KOTOR"
+      },
+      {
+        "type": "item",
+        "no": "15.1.5",
+        "name": "Wastafel dapur",
+        "code": null,
+        "volume": 5,
+        "unit": "Bh",
+        "unit_price": 2346627.9,
+        "total_price": 11733139.5,
+        "category": "PEKERJAAN AIR BERSIH DAN AIR KOTOR"
+      },
+      {
+        "type": "item",
+        "no": "15.1.6",
+        "name": "toren air 1200 liter",
+        "code": "Ls",
+        "volume": 2,
+        "unit": "Bh",
+        "unit_price": 5117235.21,
+        "total_price": 10234470.43,
+        "category": "PEKERJAAN AIR BERSIH DAN AIR KOTOR"
+      },
+      {
+        "type": "total",
+        "name": "TOTAL BIAYA",
+        "total_price": 77759223.08,
+        "category": "PEKERJAAN AIR BERSIH DAN AIR KOTOR"
+      },
+      {
+        "type": "category",
+        "no": "XVI",
+        "name": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "subcategory",
+        "no": "17.1",
+        "name": "Pekerjaan Septictank",
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "17.1.2",
+        "name": "Pekerjaan Galian Tanah",
+        "code": "1.2.1.1.4",
+        "volume": 2.79,
+        "unit": "M3",
+        "unit_price": 201825,
+        "total_price": 564100.88,
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "Pekerjaan Urugan Pasir",
+        "name": "Pekerjaan Urugan Pasir",
+        "code": "1.3.1.2",
+        "volume": 0.28,
+        "unit": "M3",
+        "unit_price": 370875,
+        "total_price": 103659.56,
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "Pekerjaan Urugan Tanah Kembali",
+        "name": "Pekerjaan Urugan Tanah Kembali",
+        "code": "1.3.1.1",
+        "volume": 3.83,
+        "unit": "M3",
+        "unit_price": 112125,
+        "total_price": 428934.19,
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "17.3.2",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "volume": 0.56,
+        "unit": "M3",
+        "unit_price": 1052617.48,
+        "total_price": 588413.17,
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "17.3.3",
+        "name": "Pekerjaan Bekisting",
+        "code": "2.2.1.3.6",
+        "volume": 13.8,
+        "unit": "M2",
+        "unit_price": 487721.23,
+        "total_price": 6730552.96,
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "Ǿ 10",
+        "name": "Ǿ 10",
+        "code": "2.2.1.1.1",
+        "volume": 17.4,
+        "unit": "Kg",
+        "unit_price": 19426.3,
+        "total_price": 338005.92,
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "subcategory",
+        "no": "17.4",
+        "name": "Pemasangan Kolom Septictank",
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "17.4.1",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "volume": 0.14,
+        "unit": "M3",
+        "unit_price": 1052617.48,
+        "total_price": 142103.36,
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "17.4.2",
+        "name": "Pekerjaan Bekisting",
+        "code": "2.2.1.3.4",
+        "volume": 3.6,
+        "unit": "M2",
+        "unit_price": 228592.4,
+        "total_price": 822932.64,
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "Ǿ 10",
+        "name": "Ǿ 10",
+        "code": "2.2.1.1.3",
+        "volume": 16.58,
+        "unit": "Kg",
+        "unit_price": 17535.7,
+        "total_price": 290828.84,
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "Ǿ 8",
+        "name": "Ǿ 8",
+        "code": "2.2.1.1.3",
+        "volume": 6.83,
+        "unit": "Kg",
+        "unit_price": 18651.31,
+        "total_price": 127424.27,
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "Pekerjaan Dinding Pasangan Bata",
+        "name": "Pekerjaan Dinding Pasangan Bata",
+        "code": "3.6.1.7",
+        "volume": 2.72,
+        "unit": "M2",
+        "unit_price": 222055.8,
+        "total_price": 603991.78,
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "17.5.1",
+        "name": "Pekerjaan Pemasangan Pipa",
+        "code": "6.4.1.9",
+        "volume": 2,
+        "unit": "M",
+        "unit_price": 250060.31,
+        "total_price": 500120.62,
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "Pekerjaan Galian Tanah",
+        "name": "Pekerjaan Galian Tanah",
+        "code": "1.2.1.1.4",
+        "volume": 1.09,
+        "unit": "M3",
+        "unit_price": 201825,
+        "total_price": 220392.9,
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "Pekerjaan Urugan Pasir",
+        "name": "Pekerjaan Urugan Pasir",
+        "code": "1.3.1.2",
+        "volume": 0.12,
+        "unit": "M3",
+        "unit_price": 370875,
+        "total_price": 44505,
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "Pekerjaan Urugan Tanah Kembali",
+        "name": "Pekerjaan Urugan Tanah Kembali",
+        "code": "1.3.1.1",
+        "volume": 3.83,
+        "unit": "M3",
+        "unit_price": 112125,
+        "total_price": 428934.19,
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "Pekerjaan Pembetonan",
+        "name": "Pekerjaan Pembetonan",
+        "code": "2.2.1.5.5",
+        "volume": 0.24,
+        "unit": "M3",
+        "unit_price": 1052617.48,
+        "total_price": 252628.19,
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "Pekerjaan Bekisting",
+        "name": "Pekerjaan Bekisting",
+        "code": "2.2.1.3.4",
+        "volume": 2.2,
+        "unit": "M2",
+        "unit_price": 228592.4,
+        "total_price": 501988.91,
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "Ǿ 10",
+        "name": "Ǿ 10",
+        "code": "2.2.1.1.3",
+        "volume": 10.22,
+        "unit": "Kg",
+        "unit_price": 17535.7,
+        "total_price": 179171.34,
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "Ǿ 8",
+        "name": "Ǿ 8",
+        "code": "2.2.1.1.3",
+        "volume": 4.31,
+        "unit": "Kg",
+        "unit_price": 18651.31,
+        "total_price": 80332.69,
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "Pekerjaan Dinding Pasangan Bata",
+        "name": "Pekerjaan Dinding Pasangan Bata",
+        "code": "3.6.1.7",
+        "volume": 4.07,
+        "unit": "M2",
+        "unit_price": 222055.8,
+        "total_price": 904655.33,
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "Pemasangan Lapisan Ijuk Bagian Resapan",
+        "name": "Pemasangan Lapisan Ijuk Bagian Resapan",
+        "code": "2.7.3",
+        "volume": 0.69,
+        "unit": "M3",
+        "unit_price": 1554225,
+        "total_price": 1079875.53,
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "Pemasangan Lapisan Pasir Bagian Resapan",
+        "name": "Pemasangan Lapisan Pasir Bagian Resapan",
+        "code": "1.3.2.2",
+        "volume": 0.24,
+        "unit": "M3",
+        "unit_price": 304635,
+        "total_price": 73112.4,
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "Pemasangan Lapisan Krikil Bagian Resapan",
+        "name": "Pemasangan Lapisan Krikil Bagian Resapan",
+        "code": "1.3.1.2",
+        "volume": 0.15,
+        "unit": "M3",
+        "unit_price": 359835,
+        "total_price": 53975.25,
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "total",
+        "name": "TOTAL BIAYA",
+        "total_price": 15060639.91,
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "category",
+        "no": "XVIII",
+        "name": "PEKERJAAN LAIN LAIN"
+      },
+      {
+        "type": "item",
+        "no": "Pemasangan Railing Tangga",
+        "name": "Pemasangan Railing Tangga",
+        "code": "3.13.5",
+        "volume": 20.58,
+        "unit": "M2",
+        "unit_price": 1245112.67,
+        "total_price": 25624418.68,
+        "category": "PEKERJAAN LAIN LAIN"
+      },
+      {
+        "type": "item",
+        "no": "Pemasangan Railing Balkon",
+        "name": "Pemasangan Railing Balkon",
+        "code": "3.13.4",
+        "volume": 13.39,
+        "unit": "M2",
+        "unit_price": 2033669.77,
+        "total_price": 27241006.64,
+        "category": "PEKERJAAN LAIN LAIN"
+      },
+      {
+        "type": "total",
+        "name": "TOTAL BIAYA",
+        "total_price": 52865425.32,
+        "category": "PEKERJAAN LAIN LAIN"
+      }
+    ]
+  },
+  "rincian": {
+    "title": "Rincian Pekerjaan",
+    "items": [
+      {
+        "type": "category",
+        "no": "I",
+        "name": "PEKERJAAN PERSIAPAN"
+      },
+      {
+        "type": "item",
+        "no": "1.1",
+        "name": "Pembersihan Lokasi",
+        "code": "1.1.3.1",
+        "unit": "M2",
+        "spec": "Manual",
+        "category": "PEKERJAAN PERSIAPAN"
+      },
+      {
+        "type": "item",
+        "no": "1.2",
+        "name": "Pemasangan Bouwplank",
+        "code": "1.1.4.2",
+        "unit": "M'",
+        "spec": "Kayu Kelas III",
+        "category": "PEKERJAAN PERSIAPAN"
+      },
+      {
+        "type": "item",
+        "no": "1.3",
+        "name": "Pembuatan Gudang",
+        "code": "1.1.2.3",
+        "unit": "M2",
+        "spec": "Kayu Kelas III",
+        "category": "PEKERJAAN PERSIAPAN"
+      },
+      {
+        "type": "item",
+        "no": "1.4",
+        "name": "IMB",
+        "code": "LS",
+        "unit": "Paket",
+        "spec": "-",
+        "category": "PEKERJAAN PERSIAPAN"
+      },
+      {
+        "type": "category",
+        "no": "II",
+        "name": "PEKERJAAN TANAH"
+      },
+      {
+        "type": "subcategory",
+        "no": "2.1",
+        "name": "Pondasi Footplat 1",
+        "category": "PEKERJAAN TANAH"
+      },
+      {
+        "type": "item",
+        "no": "2.1.1",
+        "name": "Penggalian tanah sedalam 1,8 m",
+        "code": "1.2.1.1.4",
+        "unit": "M3",
+        "spec": "Sedalam 1,8 m",
+        "category": "PEKERJAAN TANAH"
+      },
+      {
+        "type": "item",
+        "no": "2.1.2",
+        "name": "Pengurugan dengan pasir urug",
+        "code": "1.3.1.2",
+        "unit": "M3",
+        "spec": "Pasir Urug",
+        "category": "PEKERJAAN TANAH"
+      },
+      {
+        "type": "item",
+        "no": "2.1.3",
+        "name": "Pengurugan kembali galian tanah",
+        "code": "1.3.1.1",
+        "unit": "M3",
+        "spec": "Tanah Timbunan Biasa",
+        "category": "PEKERJAAN TANAH"
+      },
+      {
+        "type": "subcategory",
+        "no": "2.2",
+        "name": "Pondasi Footplat 2",
+        "category": "PEKERJAAN TANAH"
+      },
+      {
+        "type": "item",
+        "no": "2.2.1",
+        "name": "Penggalian tanah sedalam 1,8 m",
+        "code": "1.2.1.1.4",
+        "unit": "M3",
+        "spec": "Sedalam 1,8 m",
+        "category": "PEKERJAAN TANAH"
+      },
+      {
+        "type": "item",
+        "no": "2.2.2",
+        "name": "Pengurugan dengan pasir urug",
+        "code": "1.3.1.2",
+        "unit": "M3",
+        "spec": "Pasir Urug",
+        "category": "PEKERJAAN TANAH"
+      },
+      {
+        "type": "item",
+        "no": "2.2.3",
+        "name": "Pengurugan kembali galian tanah",
+        "code": "1.3.1.1",
+        "unit": "M3",
+        "spec": "Tanah Timbunan Biasa",
+        "category": "PEKERJAAN TANAH"
+      },
+      {
+        "type": "subcategory",
+        "no": "2.3",
+        "name": "Pondasi Batu Belah",
+        "category": "PEKERJAAN TANAH"
+      },
+      {
+        "type": "item",
+        "no": "2.3.1",
+        "name": "Penggalian tanah sedalam 1,23 m",
+        "code": "1.2.1.1.4",
+        "unit": "M3",
+        "spec": "Sedalam 1 m",
+        "category": "PEKERJAAN TANAH"
+      },
+      {
+        "type": "item",
+        "no": "2.3.2",
+        "name": "Pengurugan dengan pasir urug",
+        "code": "1.3.1.2",
+        "unit": "M3",
+        "spec": "Pasir Urug",
+        "category": "PEKERJAAN TANAH"
+      },
+      {
+        "type": "item",
+        "no": "2.3.3",
+        "name": "Pengurugan kembali galian tanah",
+        "code": "1.3.1.1",
+        "unit": "M3",
+        "spec": "Tanah Timbunan Biasa",
+        "category": "PEKERJAAN TANAH"
+      },
+      {
+        "type": "category",
+        "no": "III",
+        "name": "PEKERJAAN PONDASI"
+      },
+      {
+        "type": "subcategory",
+        "no": "3.1",
+        "name": "Pondasi Batu Belah",
+        "category": "PEKERJAAN PONDASI"
+      },
+      {
+        "type": "item",
+        "no": "3.1.1",
+        "name": "Pemasangan pondasi batu belah campuran 1SP : 3PP",
+        "code": "2.2.2.1.4",
+        "unit": "M3",
+        "spec": "Batu Belah",
+        "category": "PEKERJAAN PONDASI"
+      },
+      {
+        "type": "item",
+        "no": "3.1.2",
+        "name": "Pemasangan batu kosong (Anstamping)",
+        "code": "2.2.2.1.1",
+        "unit": "M3",
+        "spec": "Batu Belah",
+        "category": "PEKERJAAN PONDASI"
+      },
+      {
+        "type": "item",
+        "no": "3.1.3",
+        "name": "Urugan Pasir Bawah Pondasi",
+        "code": "1.3.1.2",
+        "unit": "M3",
+        "spec": "Pasir Urug",
+        "category": "PEKERJAAN PONDASI"
+      },
+      {
+        "type": "subcategory",
+        "no": "3.2",
+        "name": "Pondasi Footplat 1",
+        "category": "PEKERJAAN PONDASI"
+      },
+      {
+        "type": "item",
+        "no": "3.2.1",
+        "name": "Membuat lantai kerja beton mutu fc' = 7,5 Mpa",
+        "code": "2.2.1.4.1",
+        "unit": "M3",
+        "spec": "fc' = 7,5 Mpa",
+        "category": "PEKERJAAN PONDASI"
+      },
+      {
+        "type": "item",
+        "no": "3.2.2",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "unit": "M3",
+        "spec": "fc' = 21 Mpa",
+        "category": "PEKERJAAN PONDASI"
+      },
+      {
+        "type": "item",
+        "no": "3.2.3",
+        "name": "Pemasangan bekisting untuk pondasi",
+        "code": "2.2.1.3.1",
+        "unit": "M2",
+        "spec": "Kayu Kelas III, Balok Kayu Kelas II & Plywood",
+        "category": "PEKERJAAN PONDASI"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "3.2.4.1",
+        "code": "2.2.1.1.4",
+        "unit": "kg",
+        "spec": "Besi Polos",
+        "category": "PEKERJAAN PONDASI"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "3.2.4.2",
+        "code": "2.2.1.1.3",
+        "unit": "kg",
+        "spec": "Besi Polos",
+        "category": "PEKERJAAN PONDASI"
+      },
+      {
+        "type": "subcategory",
+        "no": "3.3",
+        "name": "Pondasi Footplat 2",
+        "category": "PEKERJAAN PONDASI"
+      },
+      {
+        "type": "item",
+        "no": "3.3.1",
+        "name": "Membuat lantai kerja beton mutu fc' = 7,5 Mpa",
+        "code": "2.2.1.4.1",
+        "unit": "M3",
+        "spec": "fc' = 7,5 Mpa",
+        "category": "PEKERJAAN PONDASI"
+      },
+      {
+        "type": "item",
+        "no": "3.3.2",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "unit": "M3",
+        "spec": "fc' = 21 Mpa",
+        "category": "PEKERJAAN PONDASI"
+      },
+      {
+        "type": "item",
+        "no": "3.3.3",
+        "name": "Pemasangan bekisting untuk pondasi",
+        "code": "2.2.1.3.1",
+        "unit": "M2",
+        "spec": "Kayu Kelas III, Balok Kayu Kelas II & Plywood",
+        "category": "PEKERJAAN PONDASI"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "3.3.4.1",
+        "code": "2.2.1.1.4",
+        "unit": "kg",
+        "spec": "Besi Polos",
+        "category": "PEKERJAAN PONDASI"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "3.3.4.3",
+        "code": "2.2.1.1.3",
+        "unit": "kg",
+        "spec": "Besi Polos",
+        "category": "PEKERJAAN PONDASI"
+      },
+      {
+        "type": "item",
+        "no": "3.4",
+        "name": "Cerucuk Kayu Galam Ǿ 12 cm",
+        "code": "2.6.2.1",
+        "unit": "Bh",
+        "spec": "Kayu galam ø12",
+        "category": "PEKERJAAN PONDASI"
+      },
+      {
+        "type": "category",
+        "no": "IV",
+        "name": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "subcategory",
+        "no": "4.1",
+        "name": "SLOOF 20/30",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.1.1",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "unit": "M3",
+        "spec": "fc' = 21 Mpa",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.1.2",
+        "name": "Pemasangan bekisting untuk sloof",
+        "code": "2.2.1.3.2",
+        "unit": "M2",
+        "spec": "Kayu Kelas III, Balok Kayu Kelas II & Plywood",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "4.1.3.1",
+        "code": "2.2.1.1.4",
+        "unit": "Kg",
+        "spec": "Besi Polos",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "4.1.3.2",
+        "code": "2.2.1.1.3",
+        "unit": "Kg",
+        "spec": "Besi Polos",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "subcategory",
+        "no": "4.2",
+        "name": "KOLOM 30/30",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.2.1",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "unit": "M3",
+        "spec": "fc' = 21 Mpa",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.2.2",
+        "name": "Pemasangan bekisting untuk kolom",
+        "code": "2.2.1.3.3",
+        "unit": "M2",
+        "spec": "Kayu Kelas III, Balok Kayu Kelas II & Plywood",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "4.2.3.1",
+        "code": "2.2.1.1.4",
+        "unit": "Kg",
+        "spec": "Besi Polos",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "4.2.3.2",
+        "code": "2.2.1.1.3",
+        "unit": "Kg",
+        "spec": "Besi Polos",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "subcategory",
+        "no": "4.4",
+        "name": "KOLOM 15/15",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.4.1",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "unit": "M3",
+        "spec": "fc' = 21 Mpa",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.4.2",
+        "name": "Pemasangan bekisting untuk kolom",
+        "code": "2.2.1.3.3",
+        "unit": "M2",
+        "spec": "Kayu Kelas III, Balok Kayu Kelas II & Plywood",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "4.4.3.1",
+        "code": "2.2.1.1.3",
+        "unit": "Kg",
+        "spec": "Besi Polos",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "4.4.3.2",
+        "code": "2.2.1.1.3",
+        "unit": "Kg",
+        "spec": "Besi Polos",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "subcategory",
+        "no": "4.5",
+        "name": "Balok 25/35",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.5.1",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "unit": "M3",
+        "spec": "fc' = 21 Mpa",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.5.2",
+        "name": "Pemasangan bekisting untuk balok",
+        "code": "2.2.1.3.3",
+        "unit": "M2",
+        "spec": "Kayu Kelas III, Balok Kayu Kelas II & Plywood",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "4.5.3.1",
+        "code": "2.2.1.1.3",
+        "unit": "Kg",
+        "spec": "Besi Polos",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "4.5.3.2",
+        "code": "2.2.1.1.3",
+        "unit": "Kg",
+        "spec": "Besi Polos",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "subcategory",
+        "no": "4.7",
+        "name": "Balok 15/20",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.7.1",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "",
+        "unit": "M3",
+        "spec": "fc' = 21 Mpa",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.7.2",
+        "name": "Pemasangan bekisting untuk balok",
+        "code": "2.2.1.5.5",
+        "unit": "M2",
+        "spec": "Kayu Kelas III, Balok Kayu Kelas II & Plywood",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "4.7.3.1",
+        "code": "",
+        "unit": "Kg",
+        "spec": "Besi Polos",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "4.7.3.2",
+        "code": "2.2.1.1.4",
+        "unit": "Kg",
+        "spec": "Besi Polos",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "subcategory",
+        "no": "4.8",
+        "name": "Ring Balok 25/35",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.8.1",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "",
+        "unit": "M3",
+        "spec": "fc' = 21 Mpa",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "4.8.2",
+        "name": "Pemasangan bekisting untuk balok",
+        "code": "2.2.1.5.5",
+        "unit": "M2",
+        "spec": "Kayu Kelas III, Balok Kayu Kelas II & Plywood",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "4.8.3.1",
+        "code": "",
+        "unit": "Kg",
+        "spec": "Besi Polos",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "4.8.3.2",
+        "code": "2.2.1.1.4",
+        "unit": "Kg",
+        "spec": "Besi Polos",
+        "category": "PEKERJAAN BETON BERTULANG"
+      },
+      {
+        "type": "category",
+        "no": "V",
+        "name": "PEKERJAAN PLAT LANTAI"
+      },
+      {
+        "type": "subcategory",
+        "no": "5.1",
+        "name": "Plat Lantai",
+        "category": "PEKERJAAN PLAT LANTAI"
+      },
+      {
+        "type": "item",
+        "no": "5.1.1",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "unit": "M3",
+        "spec": "fc' = 21 Mpa",
+        "category": "PEKERJAAN PLAT LANTAI"
+      },
+      {
+        "type": "item",
+        "no": "5.1.2",
+        "name": "Pemasangan bekisting untuk lantai",
+        "code": "2.2.1.3.5",
+        "unit": "M2",
+        "spec": "Kayu Kelas III, Balok Kayu Kelas II & Plywood",
+        "category": "PEKERJAAN PLAT LANTAI"
+      },
+      {
+        "type": "item",
+        "no": "5.1.3",
+        "name": "Pembesian dengan besi polos Ø10",
+        "code": "2.2.1.1.1",
+        "unit": "Kg",
+        "spec": "Besi Polos",
+        "category": "PEKERJAAN PLAT LANTAI"
+      },
+      {
+        "type": "category",
+        "no": "VI",
+        "name": "PEKERJAAN TANGGA"
+      },
+      {
+        "type": "subcategory",
+        "no": "6.1",
+        "name": "Pekerjaan Induk Tangga",
+        "category": "PEKERJAAN TANGGA"
+      },
+      {
+        "type": "item",
+        "no": "6.1.1",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "unit": "M3",
+        "spec": "fc' = 21 Mpa",
+        "category": "PEKERJAAN TANGGA"
+      },
+      {
+        "type": "item",
+        "no": "6.1.2",
+        "name": "Pemasangan bekisting untuk tangga",
+        "code": "2.2.1.3.7",
+        "unit": "M2",
+        "spec": "Kayu Kelas III, Balok Kayu Kelas II & Plywood",
+        "category": "PEKERJAAN TANGGA"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "6.1.3.1",
+        "code": "2.2.1.1.3",
+        "unit": "Kg",
+        "spec": "Besi Polos",
+        "category": "PEKERJAAN TANGGA"
+      },
+      {
+        "type": "subcategory",
+        "no": "6.2",
+        "name": "Pekerjaan Bordes Tangga",
+        "category": "PEKERJAAN TANGGA"
+      },
+      {
+        "type": "item",
+        "no": "6.2.1",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "unit": "M3",
+        "spec": "fc' = 21 Mpa",
+        "category": "PEKERJAAN TANGGA"
+      },
+      {
+        "type": "item",
+        "no": "6.2.2",
+        "name": "Pemasangan bekisting untuk tangga",
+        "code": "2.2.1.3.7",
+        "unit": "M2",
+        "spec": "Kayu Kelas III, Balok Kayu Kelas II & Plywood",
+        "category": "PEKERJAAN TANGGA"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "6.2.3.1",
+        "code": "2.2.1.1.3",
+        "unit": "Kg",
+        "spec": "Besi Polos",
+        "category": "PEKERJAAN TANGGA"
+      },
+      {
+        "type": "subcategory",
+        "no": "6.3",
+        "name": "Pekerjaan Anak Tangga",
+        "category": "PEKERJAAN TANGGA"
+      },
+      {
+        "type": "item",
+        "no": "6.3.1",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "unit": "M3",
+        "spec": "fc' = 21 Mpa",
+        "category": "PEKERJAAN TANGGA"
+      },
+      {
+        "type": "item",
+        "no": "6.3.2",
+        "name": "Pemasangan bekisting untuk tangga",
+        "code": "2.2.1.3.7",
+        "unit": "M2",
+        "spec": "Kayu Kelas III, Balok Kayu Kelas II & Plywood",
+        "category": "PEKERJAAN TANGGA"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "6.4.3.1",
+        "code": "2.2.1.1.3",
+        "unit": "Kg",
+        "spec": "Besi Polos",
+        "category": "PEKERJAAN TANGGA"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "6.4.3.1",
+        "code": "2.2.1.1.3",
+        "unit": "Kg",
+        "spec": "Besi Polos",
+        "category": "PEKERJAAN TANGGA"
+      },
+      {
+        "type": "category",
+        "no": "VII",
+        "name": "KUSEN PINTU DAN JENDELA"
+      },
+      {
+        "type": "item",
+        "no": "7.1",
+        "name": "Pembuatan dan pemasangan kusen pintu dan kusen jendela",
+        "code": "3.11.3.4",
+        "unit": "M3",
+        "spec": "Kayu Kelas II",
+        "category": "KUSEN PINTU DAN JENDELA"
+      },
+      {
+        "type": "item",
+        "no": "7.2",
+        "name": "Pembuatan dan pemasangan pintu dan jendela kaca",
+        "code": "3.11.1.9",
+        "unit": "M2",
+        "spec": "Kayu Kelas II",
+        "category": "KUSEN PINTU DAN JENDELA"
+      },
+      {
+        "type": "item",
+        "no": "7.3",
+        "name": "Pemasangan kaca tebal 5 mm",
+        "code": "3.12.3",
+        "unit": "M2",
+        "spec": "Kaca polos tebal 5 mm",
+        "category": "KUSEN PINTU DAN JENDELA"
+      },
+      {
+        "type": "subcategory",
+        "no": "7.4",
+        "name": "Pekerjaan Kunci",
+        "category": "KUSEN PINTU DAN JENDELA"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "7.4.1.1",
+        "code": "3.11.4.5",
+        "unit": "Bh",
+        "spec": "Engsel Pintu",
+        "category": "KUSEN PINTU DAN JENDELA"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "7.4.1.2",
+        "code": "3.11.4.15",
+        "unit": "Bh",
+        "spec": "Engsel Jendela Kupu-kupu",
+        "category": "KUSEN PINTU DAN JENDELA"
+      },
+      {
+        "type": "item",
+        "no": "7.4.2",
+        "name": "Pemasangan kunci tanam biasa",
+        "code": "3.11.4.2",
+        "unit": "Bh",
+        "spec": "Kunci Tanam Biasa",
+        "category": "KUSEN PINTU DAN JENDELA"
+      },
+      {
+        "type": "item",
+        "no": "7.4.3",
+        "name": "Pemasangan grendel",
+        "code": "3.11.4.20",
+        "unit": "Bh",
+        "spec": "Grendel",
+        "category": "KUSEN PINTU DAN JENDELA"
+      },
+      {
+        "type": "item",
+        "no": "7.4.4",
+        "name": "Pemasangan kait angin",
+        "code": "3.11.4.18",
+        "unit": "Bh",
+        "spec": "Kait Angin",
+        "category": "KUSEN PINTU DAN JENDELA"
+      },
+      {
+        "type": "item",
+        "no": "7.5",
+        "name": "Pemasangan Pintu Harmonika",
+        "code": "Ls",
+        "unit": "Bh",
+        "spec": "",
+        "category": "KUSEN PINTU DAN JENDELA"
+      },
+      {
+        "type": "category",
+        "no": "VIII",
+        "name": "PEKERJAAN DINDING DAN PLESTERAN"
+      },
+      {
+        "type": "item",
+        "no": "8.1",
+        "name": "Pemasangan dinding bata merah",
+        "code": "3.6.1.7",
+        "unit": "M2",
+        "spec": "Bata Merah Tebal 1/2 batu camp. 1PC : 3PP",
+        "category": "PEKERJAAN DINDING DAN PLESTERAN"
+      },
+      {
+        "type": "item",
+        "no": "8.2",
+        "name": "Pemasangan plesteran 1SP : 3PP tebal 15 mm",
+        "code": "3.7.3",
+        "unit": "M2",
+        "spec": "1SP : 3PP Tebal 15mm",
+        "category": "PEKERJAAN DINDING DAN PLESTERAN"
+      },
+      {
+        "type": "item",
+        "no": "8.3",
+        "name": "Pemasangan Acian",
+        "code": "3.7.8",
+        "unit": "M2",
+        "spec": "Acian",
+        "category": "PEKERJAAN DINDING DAN PLESTERAN"
+      },
+      {
+        "type": "category",
+        "no": "IX",
+        "name": "PEKERJAAN Plat Dak"
+      },
+      {
+        "type": "subcategory",
+        "no": "9.1",
+        "name": "Plat Dak",
+        "category": "PEKERJAAN Plat Dak"
+      },
+      {
+        "type": "item",
+        "no": "9.1.1",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "",
+        "unit": "M3",
+        "spec": "fc' = 21 Mpa",
+        "category": "PEKERJAAN Plat Dak"
+      },
+      {
+        "type": "item",
+        "no": "9.1.2",
+        "name": "Pemasangan bekisting untuk lantai",
+        "code": "",
+        "unit": "M2",
+        "spec": "Kayu Kelas III, Balok Kayu Kelas II & Plywood",
+        "category": "PEKERJAAN Plat Dak"
+      },
+      {
+        "type": "item",
+        "no": "9.1.3",
+        "name": "Pembesian dengan besi polos Ø10",
+        "code": "",
+        "unit": "Kg",
+        "spec": "Besi Polos",
+        "category": "PEKERJAAN Plat Dak"
+      },
+      {
+        "type": "category",
+        "no": "X",
+        "name": "PEKERJAAN PLAFOND"
+      },
+      {
+        "type": "item",
+        "no": "10.1",
+        "name": "Pemasangan Rangka Langit - Langit",
+        "code": "3.5.3.1",
+        "unit": "M2",
+        "spec": "Kayu Kelas II atau III",
+        "category": "PEKERJAAN PLAFOND"
+      },
+      {
+        "type": "item",
+        "no": "10.2",
+        "name": "Pemasangan Plafond",
+        "code": "3.5.2.1",
+        "unit": "M2",
+        "spec": "Plywood",
+        "category": "PEKERJAAN PLAFOND"
+      },
+      {
+        "type": "item",
+        "no": "10.3",
+        "name": "Pemasangan Lis Plafond",
+        "code": "3.5.2.6",
+        "unit": "M",
+        "spec": "Kayu Kelas I atau II",
+        "category": "PEKERJAAN PLAFOND"
+      },
+      {
+        "type": "category",
+        "no": "XI",
+        "name": "PEMASANGAN LANTAI"
+      },
+      {
+        "type": "subcategory",
+        "no": "11.1",
+        "name": "Pekerjaan Lantai 1",
+        "category": "PEMASANGAN LANTAI"
+      },
+      {
+        "type": "item",
+        "no": "11.1.1",
+        "name": "Pengurugan dengan pasir urug",
+        "code": "1.3.1.2",
+        "unit": "M3",
+        "spec": "Pasir Urug / Timbunan",
+        "category": "PEMASANGAN LANTAI"
+      },
+      {
+        "type": "item",
+        "no": "11.1.2",
+        "name": "Membuat beton mutu fc' = 21 Mpa",
+        "code": "2.2.1.5.5",
+        "unit": "M3",
+        "spec": "fc' = 15 Mpa",
+        "category": "PEMASANGAN LANTAI"
+      },
+      {
+        "type": "item",
+        "no": "11.1.3",
+        "name": "Pemasangan spesi",
+        "code": "3.7.2",
+        "unit": "M3",
+        "spec": "1PC : 2PP",
+        "category": "PEMASANGAN LANTAI"
+      },
+      {
+        "type": "item",
+        "no": "11.1.4",
+        "name": "Pemasangan lantai keramik ukuran 40 cm x 40 cm",
+        "code": "3.9.8.6",
+        "unit": "M1",
+        "spec": "Keramik 40x40",
+        "category": "PEMASANGAN LANTAI"
+      },
+      {
+        "type": "item",
+        "no": "11.1.5",
+        "name": "Pemasangan lantai keramik ukuran 30 cm x 30 cm",
+        "code": "",
+        "unit": "M2",
+        "spec": "Keramik 30x30",
+        "category": "PEMASANGAN LANTAI"
+      },
+      {
+        "type": "item",
+        "no": "11.1.6",
+        "name": "Pemasangan lantai keramik ukuran 20 cm x 20 cm",
+        "code": "",
+        "unit": "M2",
+        "spec": "Keramik 20x20",
+        "category": "PEMASANGAN LANTAI"
+      },
+      {
+        "type": "subcategory",
+        "no": "11.2",
+        "name": "Pekerjaan Lantai 2",
+        "category": "PEMASANGAN LANTAI"
+      },
+      {
+        "type": "item",
+        "no": "11.2.1",
+        "name": "Pemasangan spesi",
+        "code": "3.7.2",
+        "unit": "M3",
+        "spec": "1PC : 2PP",
+        "category": "PEMASANGAN LANTAI"
+      },
+      {
+        "type": "item",
+        "no": "11.2.2",
+        "name": "Pemasangan lantai keramik ukuran 40 cm x 40 cm",
+        "code": "3.9.8.6",
+        "unit": "M2",
+        "spec": "Keramik 40x40",
+        "category": "PEMASANGAN LANTAI"
+      },
+      {
+        "type": "item",
+        "no": "11.2.4",
+        "name": "Pemasangan lantai keramik ukuran 20 cm x 20 cm",
+        "code": "3.9.8.1",
+        "unit": "M2",
+        "spec": "Keramik 20x20",
+        "category": "PEMASANGAN LANTAI"
+      },
+      {
+        "type": "category",
+        "no": "XII",
+        "name": "PEKERJAAN KAMAR MANDI / WC"
+      },
+      {
+        "type": "subcategory",
+        "no": "12.1",
+        "name": "Kamar Mandi",
+        "category": "PEKERJAAN KAMAR MANDI / WC"
+      },
+      {
+        "type": "item",
+        "no": "12.1.1",
+        "name": "Keramik Dinding Kamar Mandi (20/20)",
+        "code": "3.10.1.4",
+        "unit": "M3",
+        "spec": "Keramik",
+        "category": "PEKERJAAN KAMAR MANDI / WC"
+      },
+      {
+        "type": "item",
+        "no": "12.1.2",
+        "name": "Pemasangan kloset duduk",
+        "code": "3.18.3.1",
+        "unit": "Bh",
+        "spec": "Porslen",
+        "category": "PEKERJAAN KAMAR MANDI / WC"
+      },
+      {
+        "type": "item",
+        "no": "12.1.3",
+        "name": "Bak Air Fiberglass",
+        "code": "",
+        "unit": "M3",
+        "spec": "Bak Air Fiberglass",
+        "category": "PEKERJAAN KAMAR MANDI / WC"
+      },
+      {
+        "type": "item",
+        "no": "12.1.4",
+        "name": "Pemasangan kran diameter 3/4\" atau 1/2\"",
+        "code": "",
+        "unit": "Bh",
+        "spec": "Kran air 3/4\"",
+        "category": "PEKERJAAN KAMAR MANDI / WC"
+      },
+      {
+        "type": "item",
+        "no": "12.1.6",
+        "name": "Pemasangan Floor Drain",
+        "code": "3.18.6.1",
+        "unit": "Bh",
+        "spec": "Floor Drain",
+        "category": "PEKERJAAN KAMAR MANDI / WC"
+      },
+      {
+        "type": "category",
+        "no": "XIII",
+        "name": "PEKERJAAN INSTALASI LISTRIK"
+      },
+      {
+        "type": "subcategory",
+        "no": "13.1",
+        "name": "Pemasangan Titik Lampu",
+        "category": "PEKERJAAN INSTALASI LISTRIK"
+      },
+      {
+        "type": "item",
+        "no": "13.1.1",
+        "name": "Lampu LED 19 watt",
+        "code": "5.3.1.6",
+        "unit": "Bh",
+        "spec": "Lampu LED 19 watt",
+        "category": "PEKERJAAN INSTALASI LISTRIK"
+      },
+      {
+        "type": "subcategory",
+        "no": "13.2",
+        "name": "Pemasangan Saklar",
+        "category": "PEKERJAAN INSTALASI LISTRIK"
+      },
+      {
+        "type": "item",
+        "no": "13.2.1",
+        "name": "Saklar Tunggal",
+        "code": "5.1.5.1",
+        "unit": "Bh",
+        "spec": "Saklar Tunggal",
+        "category": "PEKERJAAN INSTALASI LISTRIK"
+      },
+      {
+        "type": "item",
+        "no": "13.2.2",
+        "name": "Saklar Ganda",
+        "code": "5.1.5.2",
+        "unit": "Bh",
+        "spec": "Saklar Ganda",
+        "category": "PEKERJAAN INSTALASI LISTRIK"
+      },
+      {
+        "type": "item",
+        "no": "13.3",
+        "name": "Pemasangan Stop Kontak",
+        "code": "5.1.5.13",
+        "unit": "Bh",
+        "spec": "Stop Kontak",
+        "category": "PEKERJAAN INSTALASI LISTRIK"
+      },
+      {
+        "type": "item",
+        "no": "13.4",
+        "name": "Pemasangan Box Meteran PLN",
+        "code": "5.1.6.1",
+        "unit": "Bh",
+        "spec": "Kwh Meter",
+        "category": "PEKERJAAN INSTALASI LISTRIK"
+      },
+      {
+        "type": "item",
+        "no": "13.5",
+        "name": "Pemasangan MCB",
+        "code": "5.1.2.24",
+        "unit": "Bh",
+        "spec": "MCB",
+        "category": "PEKERJAAN INSTALASI LISTRIK"
+      },
+      {
+        "type": "item",
+        "no": "13.6",
+        "name": "Pemasangan Kabel",
+        "code": "5.1.1.2.9",
+        "unit": "M'",
+        "spec": "Kabel NYA",
+        "category": "PEKERJAAN INSTALASI LISTRIK"
+      },
+      {
+        "type": "category",
+        "no": "XIV",
+        "name": "PEKERJAAN PENGECATAN"
+      },
+      {
+        "type": "item",
+        "no": "14.1",
+        "name": "Pengecatan 1 m2 Tembok Baru Interior",
+        "code": "3.8.10.1",
+        "unit": "M2",
+        "spec": "1 Lapis Cat Dasar : 1 Lapis Cat Penutup",
+        "category": "PEKERJAAN PENGECATAN"
+      },
+      {
+        "type": "item",
+        "no": "14.2",
+        "name": "Pengecatan 1 m2 Tembok Baru Eksterior",
+        "code": "3.8.10.2",
+        "unit": "M3",
+        "spec": "2 Lapis Cat Dasar : 1 Lapis Cat Penutup",
+        "category": "PEKERJAAN PENGECATAN"
+      },
+      {
+        "type": "item",
+        "no": "14.3",
+        "name": "Pekerjaan cat kusen dan daun",
+        "code": "3.8.4",
+        "unit": "M2",
+        "spec": "1 Lapis Plamuur : 1 Lapis Cat Dasar : 2 Lapis Cat Penutup",
+        "category": "PEKERJAAN PENGECATAN"
+      },
+      {
+        "type": "item",
+        "no": "14.4",
+        "name": "Pengecatan 1 m2 Plafond Interior",
+        "code": "3.8.20.1",
+        "unit": "M2",
+        "spec": "1 Lapis Cat Dasar : 2 Lapis Cat Penutup",
+        "category": "PEKERJAAN PENGECATAN"
+      },
+      {
+        "type": "category",
+        "no": "XV",
+        "name": "PEKERJAAN AIR BERSIH DAN AIR KOTOR"
+      },
+      {
+        "type": "subcategory",
+        "no": "15.1",
+        "name": "Pekerjaan Sanitasi",
+        "category": "PEKERJAAN AIR BERSIH DAN AIR KOTOR"
+      },
+      {
+        "type": "item",
+        "no": "15.1.1",
+        "name": "Pipa Saluran Air Bersih DW (3/4\")",
+        "code": "6.4.1.1",
+        "unit": "M'",
+        "spec": "Pipa PVC AW. Dia. 3/4\"",
+        "category": "PEKERJAAN AIR BERSIH DAN AIR KOTOR"
+      },
+      {
+        "type": "item",
+        "no": "15.1.2",
+        "name": "Pipa Saluran Air Kotor AW (4\")",
+        "code": "6.4.1.9",
+        "unit": "M'",
+        "spec": "Pipa PVC D. Dia. 4",
+        "category": "PEKERJAAN AIR BERSIH DAN AIR KOTOR"
+      },
+      {
+        "type": "item",
+        "no": "15.1.3",
+        "name": "Kran Air",
+        "code": "3.18.6.2.1",
+        "unit": "Bh",
+        "spec": "Kran air 3/4\"",
+        "category": "PEKERJAAN AIR BERSIH DAN AIR KOTOR"
+      },
+      {
+        "type": "item",
+        "no": "15.1.4",
+        "name": "Pompa Air",
+        "code": "6.1.2.5",
+        "unit": "Bh",
+        "spec": "Pompa Air",
+        "category": "PEKERJAAN AIR BERSIH DAN AIR KOTOR"
+      },
+      {
+        "type": "item",
+        "no": "15.1.6",
+        "name": "Wastafel dapur",
+        "code": "",
+        "unit": "Bh",
+        "spec": "Wastafel dapur",
+        "category": "PEKERJAAN AIR BERSIH DAN AIR KOTOR"
+      },
+      {
+        "type": "item",
+        "no": "15.1.7",
+        "name": "toren air 1200 liter",
+        "code": "Ls",
+        "unit": "Bh",
+        "spec": "toren air 1200 liter",
+        "category": "PEKERJAAN AIR BERSIH DAN AIR KOTOR"
+      },
+      {
+        "type": "category",
+        "no": "XVII",
+        "name": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "subcategory",
+        "no": "16.1",
+        "name": "Pekerjaan Septictank",
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "17.1.1.1",
+        "code": "1.2.1.1.4",
+        "unit": "M3",
+        "spec": "Sedalam 1,8 m",
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "17.1.1.2",
+        "code": "1.3.1.2",
+        "unit": "M3",
+        "spec": "Pasir Urug",
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "17.1.1.3",
+        "code": "1.3.1.1",
+        "unit": "M3",
+        "spec": "Bekas Galian",
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "17.1.2.1",
+        "code": "2.2.1.5.5",
+        "unit": "M3",
+        "spec": "K250/fc' 21 Mpa",
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "17.1.2.2",
+        "code": "2.2.1.3.6",
+        "unit": "M2",
+        "spec": "Kayu Kelas II",
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "17.1.2.4",
+        "code": "2.2.1.1.1",
+        "unit": "Kg",
+        "spec": "Besi Polos Ø10",
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "17.1.3.1",
+        "code": "2.2.1.5.5",
+        "unit": "M3",
+        "spec": "K250/fc' 21 Mpa",
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "17.1.3.2",
+        "code": "2.2.1.3.4",
+        "unit": "M2",
+        "spec": "Kayu Kelas II",
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "17.1.3.4",
+        "code": "2.2.1.1.3",
+        "unit": "Kg",
+        "spec": "Besi Polos Ø10",
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "17.1.3.5",
+        "code": "2.2.1.1.3",
+        "unit": "Kg",
+        "spec": "Besi Polos Ø8",
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "16.1.4",
+        "name": "Pekerjaan Dinding Pasangan Bata",
+        "code": "3.6.1.7",
+        "unit": "M2",
+        "spec": "Batako 1/2 batu camp. 1PC : 3PP",
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "16.1.5",
+        "name": "Pekerjaan Pemasangan Pipa",
+        "code": "6.4.1.9",
+        "unit": "M",
+        "spec": "PVC  Ǿ4\"",
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "subcategory",
+        "no": "16.2",
+        "name": "Pekerjaan Sumur Resapan",
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "17.2.1.1",
+        "code": "1.2.1.1.4",
+        "unit": "M3",
+        "spec": "Sedalam 1,8 m",
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "17.2.1.2",
+        "code": "1.3.1.2",
+        "unit": "M3",
+        "spec": "Pasir Urug",
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "17.2.1.3",
+        "code": "1.3.1.1",
+        "unit": "M3",
+        "spec": "Bekas Galian",
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "17.2.2.1",
+        "code": "2.2.1.5.5",
+        "unit": "M3",
+        "spec": "Beton K-175 (Semi Mekanis)",
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "17.2.2.2",
+        "code": "2.2.1.3.4",
+        "unit": "M2",
+        "spec": "Kayu Kelas II",
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "17.2.2.4",
+        "code": "2.2.1.1.3",
+        "unit": "Kg",
+        "spec": "Besi Polos Ø10",
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "",
+        "name": "17.2.2.5",
+        "code": "2.2.1.1.3",
+        "unit": "Kg",
+        "spec": "Besi Polos Ø8",
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "16.2.3",
+        "name": "Pekerjaan Dinding Pasangan Bata",
+        "code": "3.6.1.7",
+        "unit": "M2",
+        "spec": "Batako 1/2 batu camp. 1PC : 3PP",
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "16.2.4",
+        "name": "Pemasangan Lapisan Ijuk Bagian Resapan",
+        "code": "2.7.3",
+        "unit": "M3",
+        "spec": "Pasangan Ijuk",
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "16.2.5",
+        "name": "Pemasangan Lapisan Pasir Bagian Resapan",
+        "code": "1.3.2.2",
+        "unit": "M3",
+        "spec": "Pasangan Krikil",
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "item",
+        "no": "16.2.6",
+        "name": "Pemasangan Lapisan Krikil Bagian Resapan",
+        "code": "1.3.1.2",
+        "unit": "M3",
+        "spec": "Pasangan Pasir",
+        "category": "PEKERJAAN SEPTIC TANK"
+      },
+      {
+        "type": "category",
+        "no": "XVIII",
+        "name": "PEKERJAAN LAIN LAIN"
+      },
+      {
+        "type": "item",
+        "no": "18.1",
+        "name": "Pemasangan Railing Tangga",
+        "code": "3.13.5",
+        "unit": "M2",
+        "spec": "Besi Hollow",
+        "category": "PEKERJAAN LAIN LAIN"
+      },
+      {
+        "type": "item",
+        "no": "18.3",
+        "name": "Pemasangan Railing Balkon",
+        "code": "3.13.4",
+        "unit": "M2",
+        "spec": "Besi Hollow",
+        "category": "PEKERJAAN LAIN LAIN"
+      }
+    ]
+  }
+}
