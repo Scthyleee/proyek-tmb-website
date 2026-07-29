@@ -87,28 +87,10 @@ export default function ArsitekturPage() {
         <div className="section-container flex flex-wrap justify-center gap-3">
           <Link
             href="/dokumen?tab=gambar-kerja"
-            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl border border-accent/30 bg-accent/5
-              text-accent text-xs font-medium hover:bg-accent/10 transition-all duration-300"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-accent text-bg-primary text-xs font-semibold hover:bg-accent/90 transition-all duration-300"
           >
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-              <polyline points="14 2 14 8 20 8" />
-            </svg>
             Lihat Seluruh PDF (37 Halaman)
           </Link>
-          <a
-            href="https://github.com/Scthyleee/proyek-tmb-website/releases/download/v1.0.0/rencana-kantor-kecamatan-pahandut.dwg"
-            download
-            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl border border-accent-secondary/30 bg-accent-secondary/5
-              text-accent-secondary text-xs font-medium hover:bg-accent-secondary/10 transition-all duration-300"
-          >
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-              <polyline points="7 10 12 15 17 10" />
-              <line x1="12" y1="15" x2="12" y2="3" />
-            </svg>
-            Unduh File DWG (14.8 MB)
-          </a>
         </div>
       </section>
 
