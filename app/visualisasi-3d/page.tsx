@@ -277,15 +277,7 @@ export default function Visualisasi3DPage() {
                 ))}
               </div>
 
-              {/* Download GLB */}
-              <a
-                href="/models/building.glb"
-                download="kantor-kecamatan-pahandut.glb"
-                className="block w-full text-center px-4 py-3 rounded-xl border border-emerald-500/30 bg-emerald-500/5
-                  text-emerald-400 text-xs font-medium hover:bg-emerald-500/10 transition-all mt-4"
-              >
-                ⬇ Unduh File GLB
-              </a>
+
             </div>
           </div>
         </div>
