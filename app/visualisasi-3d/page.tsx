@@ -123,29 +123,30 @@ function CameraController({
     const startPolar = controls.getPolarAngle();
     const startDistance = controls.getDistance();
     
-    const targetAzimuth = targetView.azimuth;
+    // Ensure shortest path for azimuth
+    let targetAzimuth = targetView.azimuth;
+    while (targetAzimuth - startAzimuth > Math.PI) targetAzimuth -= 2 * Math.PI;
+    while (targetAzimuth - startAzimuth < -Math.PI) targetAzimuth += 2 * Math.PI;
+
     const targetPolar = targetView.polar;
     const targetDistance = targetView.distance;
     
-    const duration = 800; // ms
+    const duration = 1200; // ms
     const startTime = performance.now();
     
     const animate = (time: number) => {
       const elapsed = time - startTime;
       const progress = Math.min(elapsed / duration, 1);
-      // Ease out cubic
-      const eased = 1 - Math.pow(1 - progress, 3);
+      // Ease in-out cubic
+      const eased = progress < 0.5 ? 4 * progress * progress * progress : 1 - Math.pow(-2 * progress + 2, 3) / 2;
       
       const currentAzimuth = startAzimuth + (targetAzimuth - startAzimuth) * eased;
       const currentPolar = startPolar + (targetPolar - startPolar) * eased;
       const currentDistance = startDistance + (targetDistance - startDistance) * eased;
       
-      controls.setAzimuthalAngle(currentAzimuth);
-      controls.setPolarAngle(currentPolar);
-      
-      // Set distance by adjusting camera position
-      const direction = new THREE.Vector3().subVectors(camera.position, controls.target).normalize();
-      camera.position.copy(controls.target).addScaledVector(direction, currentDistance);
+      // Calculate new camera position relative to target
+      const spherical = new THREE.Spherical(currentDistance, currentPolar, currentAzimuth);
+      camera.position.setFromSpherical(spherical).add(controls.target);
       
       controls.update();
       
@@ -173,11 +174,11 @@ const hotspots = [
 
 // Camera positions for each hotspot view (azimuth, polar in radians, distance multiplier)
 const hotspotCameras: Record<string, { azimuth: number; polar: number; distance: number }> = {
-  full:     { azimuth: 0.8,    polar: 1.1,   distance: 80 },
-  front:    { azimuth: 0,      polar: 1.3,   distance: 60 },
-  roof:     { azimuth: 0.3,    polar: 0.3,   distance: 100 },
-  side:     { azimuth: Math.PI / 2, polar: 1.2, distance: 70 },
-  interior: { azimuth: Math.PI,     polar: 1.4, distance: 30 },
+  full:     { azimuth: 0.8,    polar: 1.1,   distance: 120 },
+  front:    { azimuth: 0,      polar: 1.3,   distance: 100 },
+  roof:     { azimuth: 0.3,    polar: 0.3,   distance: 150 },
+  side:     { azimuth: Math.PI / 2, polar: 1.2, distance: 110 },
+  interior: { azimuth: Math.PI,     polar: 1.4, distance: 40 },
 };
 
 /* ─── Main Page ─── */
