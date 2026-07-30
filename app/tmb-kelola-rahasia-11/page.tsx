@@ -3,12 +3,84 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
+const ADMIN_PASSWORD = "TMBK11";
+
 export default function AdminPage() {
+  const [authenticated, setAuthenticated] = useState(false);
+  const [password, setPassword] = useState("");
+  const [passwordError, setPasswordError] = useState(false);
   const [data, setData] = useState<any>(null);
   const [activeTab, setActiveTab] = useState("galeri");
   const [loading, setLoading] = useState(true);
   const [uploading, setUploading] = useState(false);
   const [message, setMessage] = useState("");
+
+  // Check if already authenticated via session
+  useEffect(() => {
+    const saved = sessionStorage.getItem("tmb-admin-auth");
+    if (saved === "true") setAuthenticated(true);
+  }, []);
+
+  const handleLogin = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (password === ADMIN_PASSWORD) {
+      setAuthenticated(true);
+      sessionStorage.setItem("tmb-admin-auth", "true");
+      setPasswordError(false);
+    } else {
+      setPasswordError(true);
+      setTimeout(() => setPasswordError(false), 2000);
+    }
+  };
+
+  // Login screen
+  if (!authenticated) {
+    return (
+      <div className="min-h-screen bg-[#050505] flex items-center justify-center p-8">
+        <motion.div 
+          initial={{ opacity: 0, scale: 0.95 }} 
+          animate={{ opacity: 1, scale: 1 }}
+          className="w-full max-w-sm"
+        >
+          <div className="text-center mb-8">
+            <div className="w-16 h-16 mx-auto mb-4 rounded-2xl border border-accent/30 bg-accent/5 flex items-center justify-center">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-accent">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+                <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+              </svg>
+            </div>
+            <h1 className="text-2xl font-bold text-white mb-2">Panel Admin</h1>
+            <p className="text-gray-500 text-sm">Masukkan password untuk mengakses panel kelola</p>
+          </div>
+          
+          <form onSubmit={handleLogin} className="space-y-4">
+            <div>
+              <input
+                type="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                placeholder="Password..."
+                className={`w-full px-4 py-3 rounded-xl bg-gray-900 border text-white text-sm
+                  focus:outline-none focus:border-accent/50 transition-colors
+                  ${passwordError ? "border-red-500 animate-pulse" : "border-gray-700"}`}
+                autoFocus
+              />
+              {passwordError && (
+                <p className="text-red-400 text-xs mt-2">Password salah. Coba lagi.</p>
+              )}
+            </div>
+            <button
+              type="submit"
+              className="w-full py-3 rounded-xl bg-accent text-black font-bold text-sm hover:bg-accent/90 transition-colors"
+            >
+              Masuk
+            </button>
+          </form>
+        </motion.div>
+      </div>
+    );
+  }
+
 
   useEffect(() => {
     fetch("/api/admin/data")

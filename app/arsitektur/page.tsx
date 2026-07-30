@@ -6,10 +6,50 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { ParticleBackground } from "@/components/cinematic/ParticleBackground";
 
-// 37 halaman gambar kerja dari PDF
+// 37 halaman gambar kerja dari PDF — judul diambil dari setiap lembar
+const drawingTitles: Record<number, string> = {
+  1: "Cover",
+  2: "Site Plan",
+  3: "Denah Basement",
+  4: "Denah Kantor Kecamatan",
+  5: "Denah Atap",
+  6: "Tampak Depan",
+  7: "Tampak Belakang",
+  8: "Tampak Samping Kiri",
+  9: "Tampak Samping Kanan",
+  10: "Potongan A-A",
+  11: "Potongan B-B",
+  12: "Denah Pondasi",
+  13: "Detail Pondasi P1",
+  14: "Detail Pondasi P2",
+  15: "Detail Pondasi P3",
+  16: "Detail Pondasi P4",
+  17: "Denah Sloof",
+  18: "Denah Kolom & Balok Lt. Basement",
+  19: "Denah Kolom & Balok Lt. Kantor Kecamatan",
+  20: "Denah Ring Balok",
+  21: "Denah Plat Lantai Basement",
+  22: "Denah Plat Lantai Kantor Kecamatan",
+  23: "Detail Plat Lantai",
+  24: "Denah Kuda-Kuda",
+  25: "Denah Tangga dan Ramp",
+  26: "Detail Tangga",
+  27: "Potongan A-A Tangga & Detail Ramp",
+  28: "Detail Kuda-Kuda 1",
+  29: "Detail Kuda-Kuda 2",
+  30: "Detail Kuda-Kuda 3",
+  31: "Detail Atap 1, 2, 3",
+  32: "Denah Keramik",
+  33: "Denah Listrik Basement",
+  34: "Denah Listrik Kantor Kecamatan",
+  35: "Denah Sanitasi Kantor Kecamatan",
+  36: "Detail Septictank",
+  37: "Detail Tandon Air",
+};
+
 const drawings = Array.from({ length: 37 }, (_, i) => ({
   id: i + 1,
-  title: `Halaman ${i + 1}`,
+  title: drawingTitles[i + 1] || `Halaman ${i + 1}`,
   image: `/drawings/page-${String(i + 1).padStart(2, "0")}.png`,
 }));
 

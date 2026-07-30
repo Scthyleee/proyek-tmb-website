@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, Suspense } from "react";
+import { useState, useEffect, Suspense, useRef } from "react";
 import { useSearchParams } from "next/navigation";
 import { motion } from "framer-motion";
 import { ParticleBackground } from "@/components/cinematic/ParticleBackground";
@@ -22,12 +22,33 @@ function DokumenContent() {
   const tabParam = searchParams.get("tab");
   const [activeTab, setActiveTab] = useState(documents[0].id);
   const activeDoc = documents.find((d) => d.id === activeTab)!;
+  const iframeRef = useRef<HTMLIFrameElement>(null);
 
   useEffect(() => {
     if (tabParam && documents.some((d) => d.id === tabParam)) {
       setActiveTab(tabParam);
     }
   }, [tabParam]);
+
+  // Prevent right-click on iframe overlay to block "Save As"
+  useEffect(() => {
+    const handleContextMenu = (e: MouseEvent) => {
+      const target = e.target as HTMLElement;
+      if (target.closest('.pdf-viewer-container')) {
+        e.preventDefault();
+      }
+    };
+    document.addEventListener('contextmenu', handleContextMenu);
+    return () => document.removeEventListener('contextmenu', handleContextMenu);
+  }, []);
+
+  // Build secure PDF URL — disable toolbar, navpanes, download
+  const getSecurePdfUrl = (url: string | null) => {
+    if (!url) return null;
+    // Add parameters to disable PDF viewer toolbar and prevent download
+    const separator = url.includes('?') ? '&' : '#';
+    return `${url}${separator}toolbar=0&navpanes=0&scrollbar=1&view=FitH`;
+  };
 
   return (
     <div className="relative">
@@ -96,26 +117,36 @@ function DokumenContent() {
               <div className="flex items-center gap-4 text-xs text-text-muted">
                 <span>{activeDoc.pages} halaman</span>
                 <span>{activeDoc.size}</span>
-                {activeDoc.pdfUrl && (
-                  <a
-                    href={activeDoc.pdfUrl}
-                    download
-                    className="px-3 py-1.5 rounded-lg border border-accent/30 text-accent hover:bg-accent/10 transition-colors"
-                  >
-                    Download
-                  </a>
-                )}
+                {/* Security badge - no download allowed */}
+                <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-amber-500/20 bg-amber-500/5 text-amber-400">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+                    <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+                  </svg>
+                  <span className="text-[10px] font-medium">View Only</span>
+                </div>
               </div>
             </div>
 
             {/* PDF Viewer Area */}
             <div className="rounded-b-2xl border border-border-subtle bg-bg-card/50 overflow-hidden">
               {activeDoc.pdfUrl ? (
-                <iframe
-                  src={activeDoc.pdfUrl}
-                  className="w-full h-[70vh]"
-                  title={activeDoc.title}
-                />
+                <div className="pdf-viewer-container relative" onContextMenu={(e) => e.preventDefault()}>
+                  <iframe
+                    ref={iframeRef}
+                    src={getSecurePdfUrl(activeDoc.pdfUrl) || ''}
+                    className="w-full h-[70vh]"
+                    title={activeDoc.title}
+                    sandbox="allow-same-origin allow-scripts"
+                    style={{ border: 'none' }}
+                  />
+                  {/* Invisible overlay on top-right to block download button area */}
+                  <div 
+                    className="absolute top-0 right-0 w-[200px] h-[48px] bg-transparent z-10"
+                    style={{ pointerEvents: 'auto' }}
+                    onContextMenu={(e) => e.preventDefault()}
+                  />
+                </div>
               ) : (
                 <div className="h-[70vh] flex items-center justify-center">
                   <div className="text-center">
@@ -135,7 +166,7 @@ function DokumenContent() {
                       {activeDoc.title}
                     </h3>
                     <p className="text-text-muted text-xs max-w-xs mx-auto mb-4">
-                      Upload file PDF ke folder <code className="px-1.5 py-0.5 rounded bg-bg-tertiary text-accent text-[10px]">/public/documents/</code> dan update URL di kode.
+                      Dokumen sedang dalam proses upload. Silakan cek kembali nanti.
                     </p>
                     <p className="text-text-muted text-[10px]">
                       {activeDoc.pages} halaman • {activeDoc.size}
@@ -143,6 +174,16 @@ function DokumenContent() {
                   </div>
                 </div>
               )}
+            </div>
+
+            {/* Security notice */}
+            <div className="mt-3 text-center">
+              <p className="text-[10px] text-text-muted flex items-center justify-center gap-1.5">
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                </svg>
+                Dokumen ini bersifat rahasia dan hanya dapat dilihat di browser. Download tidak diperbolehkan.
+              </p>
             </div>
           </motion.div>
         </div>

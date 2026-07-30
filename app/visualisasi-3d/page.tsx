@@ -1,9 +1,9 @@
 "use client";
 
-import { Suspense, useRef, useState, useEffect } from "react";
-import { Canvas, useFrame, useThree } from "@react-three/fiber";
-import { useGLTF, OrbitControls, Environment, ContactShadows, Html, useProgress } from "@react-three/drei";
-import { motion, AnimatePresence } from "framer-motion";
+import { Suspense, useRef, useState, useEffect, useCallback } from "react";
+import { Canvas, useThree } from "@react-three/fiber";
+import { useGLTF, OrbitControls, Environment, Html, useProgress } from "@react-three/drei";
+import { motion } from "framer-motion";
 import { ParticleBackground } from "@/components/cinematic/ParticleBackground";
 import * as THREE from "three";
 
@@ -26,20 +26,39 @@ function Loader() {
   );
 }
 
-/* ─── The 3D Building Model ─── */
+/* ─── The 3D Building Model (Optimized) ─── */
 function BuildingModel({ url, wireframe }: { url: string; wireframe: boolean }) {
   const { scene } = useGLTF(url);
   const groupRef = useRef<THREE.Group>(null);
 
-  // Apply wireframe to all meshes
+  // Optimize model on load: merge geometries where possible, reduce material complexity
   useEffect(() => {
     scene.traverse((child) => {
       if ((child as THREE.Mesh).isMesh) {
         const mesh = child as THREE.Mesh;
+        // Enable frustum culling
+        mesh.frustumCulled = true;
+        
+        // Optimize geometry
+        if (mesh.geometry) {
+          mesh.geometry.computeBoundingSphere();
+          mesh.geometry.computeBoundingBox();
+        }
+
+        // Apply wireframe and optimize materials
         if (Array.isArray(mesh.material)) {
-          mesh.material.forEach((mat) => { (mat as THREE.MeshStandardMaterial).wireframe = wireframe; });
+          mesh.material.forEach((mat) => {
+            const stdMat = mat as THREE.MeshStandardMaterial;
+            stdMat.wireframe = wireframe;
+            // Reduce material complexity for performance
+            stdMat.envMapIntensity = 0.3;
+            stdMat.roughness = Math.max(stdMat.roughness, 0.4);
+          });
         } else {
-          (mesh.material as THREE.MeshStandardMaterial).wireframe = wireframe;
+          const stdMat = mesh.material as THREE.MeshStandardMaterial;
+          stdMat.wireframe = wireframe;
+          stdMat.envMapIntensity = 0.3;
+          stdMat.roughness = Math.max(stdMat.roughness, 0.4);
         }
       }
     });
@@ -52,20 +71,94 @@ function BuildingModel({ url, wireframe }: { url: string; wireframe: boolean }) 
   );
 }
 
-/* ─── Camera Auto-fit ─── */
-function AutoFitCamera() {
+/* ─── Camera Controller with Smooth Animation ─── */
+function CameraController({ 
+  controlsRef, 
+  targetView, 
+  onReady 
+}: { 
+  controlsRef: React.RefObject<any>; 
+  targetView: { azimuth: number; polar: number; distance: number } | null;
+  onReady: () => void;
+}) {
   const { camera, scene } = useThree();
+  const initialized = useRef(false);
+  const animating = useRef(false);
+
+  // Auto-fit camera on first load
   useEffect(() => {
+    if (initialized.current) return;
     const box = new THREE.Box3().setFromObject(scene);
     const size = box.getSize(new THREE.Vector3());
     const center = box.getCenter(new THREE.Vector3());
+    
+    if (size.length() === 0) return; // Model not loaded yet
+    
     const maxDim = Math.max(size.x, size.y, size.z);
     const fov = (camera as THREE.PerspectiveCamera).fov * (Math.PI / 180);
     const dist = Math.abs(maxDim / Math.sin(fov / 2)) * 0.6;
+    
     camera.position.set(center.x + dist * 0.6, center.y + dist * 0.4, center.z + dist * 0.8);
     camera.lookAt(center);
     camera.updateProjectionMatrix();
-  }, [scene, camera]);
+    
+    if (controlsRef.current) {
+      controlsRef.current.target.copy(center);
+      controlsRef.current.update();
+    }
+    
+    initialized.current = true;
+    onReady();
+  }, [scene, camera, controlsRef, onReady]);
+
+  // Animate to hotspot view with smooth LERP
+  useEffect(() => {
+    if (!targetView || !controlsRef.current || !initialized.current) return;
+    if (animating.current) return;
+    
+    animating.current = true;
+    const controls = controlsRef.current;
+    
+    const startAzimuth = controls.getAzimuthalAngle();
+    const startPolar = controls.getPolarAngle();
+    const startDistance = controls.getDistance();
+    
+    const targetAzimuth = targetView.azimuth;
+    const targetPolar = targetView.polar;
+    const targetDistance = targetView.distance;
+    
+    const duration = 800; // ms
+    const startTime = performance.now();
+    
+    const animate = (time: number) => {
+      const elapsed = time - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      // Ease out cubic
+      const eased = 1 - Math.pow(1 - progress, 3);
+      
+      const currentAzimuth = startAzimuth + (targetAzimuth - startAzimuth) * eased;
+      const currentPolar = startPolar + (targetPolar - startPolar) * eased;
+      const currentDistance = startDistance + (targetDistance - startDistance) * eased;
+      
+      controls.setAzimuthalAngle(currentAzimuth);
+      controls.setPolarAngle(currentPolar);
+      
+      // Set distance by adjusting camera position
+      const direction = new THREE.Vector3().subVectors(camera.position, controls.target).normalize();
+      camera.position.copy(controls.target).addScaledVector(direction, currentDistance);
+      
+      controls.update();
+      
+      if (progress < 1) {
+        requestAnimationFrame(animate);
+      } else {
+        animating.current = false;
+      }
+    };
+    
+    requestAnimationFrame(animate);
+  }, [targetView, controlsRef, camera]);
+
   return null;
 }
 
@@ -78,31 +171,33 @@ const hotspots = [
   { id: "interior",  label: "Area Dalam",            icon: "🏛️", desc: "Ruang pelayanan publik dan ruang kantor." },
 ];
 
+// Camera positions for each hotspot view (azimuth, polar in radians, distance multiplier)
+const hotspotCameras: Record<string, { azimuth: number; polar: number; distance: number }> = {
+  full:     { azimuth: 0.8,    polar: 1.1,   distance: 80 },
+  front:    { azimuth: 0,      polar: 1.3,   distance: 60 },
+  roof:     { azimuth: 0.3,    polar: 0.3,   distance: 100 },
+  side:     { azimuth: Math.PI / 2, polar: 1.2, distance: 70 },
+  interior: { azimuth: Math.PI,     polar: 1.4, distance: 30 },
+};
+
 /* ─── Main Page ─── */
 export default function Visualisasi3DPage() {
   const [activeHotspot, setActiveHotspot] = useState(hotspots[0]);
   const [wireframe, setWireframe] = useState(false);
-  const [showAxes, setShowAxes] = useState(false);
   const [modelLoaded, setModelLoaded] = useState(false);
   const [modelError, setModelError] = useState(false);
+  const [targetView, setTargetView] = useState<{ azimuth: number; polar: number; distance: number } | null>(null);
   const controlsRef = useRef<any>(null);
 
-  // Hotspot camera targets (azimuth, polar angles in radians)
-  const hotspotCameras: Record<string, { azimuth: number; polar: number }> = {
-    full:     { azimuth: 0.8,   polar: 1.1 },
-    front:    { azimuth: 0,     polar: 1.3 },
-    roof:     { azimuth: 0.5,   polar: 0.3 },
-    side:     { azimuth: 1.57,  polar: 1.2 },
-    interior: { azimuth: -0.8,  polar: 1.0 },
-  };
+  const handleModelReady = useCallback(() => {
+    setModelLoaded(true);
+  }, []);
 
   const goToHotspot = (hotspot: typeof hotspots[0]) => {
     setActiveHotspot(hotspot);
-    if (controlsRef.current) {
-      const target = hotspotCameras[hotspot.id];
-      controlsRef.current.setAzimuthalAngle(target.azimuth);
-      controlsRef.current.setPolarAngle(target.polar);
-      controlsRef.current.update();
+    const cam = hotspotCameras[hotspot.id];
+    if (cam) {
+      setTargetView({ ...cam }); // Trigger smooth camera animation
     }
   };
 
@@ -176,19 +271,30 @@ export default function Visualisasi3DPage() {
                     </div>
                   ) : (
                     <Canvas
-                      shadows
+                      shadows={false}
                       camera={{ fov: 45, near: 0.1, far: 5000 }}
-                      gl={{ antialias: true, toneMapping: THREE.ACESFilmicToneMapping }}
-                      onCreated={({ gl }) => { gl.toneMappingExposure = 1.2; }}
+                      gl={{
+                        antialias: false,
+                        toneMapping: THREE.ACESFilmicToneMapping,
+                        powerPreference: "high-performance",
+                        stencil: false,
+                        depth: true,
+                      }}
+                      dpr={[0.75, 1.25]}
+                      performance={{ min: 0.5 }}
+                      onCreated={({ gl }) => {
+                        gl.toneMappingExposure = 1.2;
+                        gl.shadowMap.enabled = false;
+                        gl.setPixelRatio(Math.min(window.devicePixelRatio, 1.5));
+                      }}
                     >
                       <Suspense fallback={<Loader />}>
-                        {/* Lighting */}
-                        <ambientLight intensity={0.6} />
-                        <directionalLight position={[10, 20, 10]} intensity={1.5} castShadow shadow-mapSize={[2048, 2048]} />
-                        <directionalLight position={[-10, 10, -5]} intensity={0.4} color="#7b5cff" />
-                        <pointLight position={[0, 10, 0]} intensity={0.3} color="#00d4ff" />
+                        {/* Lighting — simplified for performance */}
+                        <ambientLight intensity={0.8} />
+                        <directionalLight position={[10, 20, 10]} intensity={1.2} />
+                        <directionalLight position={[-10, 10, -5]} intensity={0.3} color="#7b5cff" />
 
-                        {/* Environment */}
+                        {/* Environment — use lightweight preset */}
                         <Environment preset="city" />
 
                         {/* Model */}
@@ -197,14 +303,12 @@ export default function Visualisasi3DPage() {
                           wireframe={wireframe}
                         />
 
-                        {/* Shadows */}
-                        <ContactShadows position={[0, -0.5, 0]} opacity={0.4} scale={60} blur={2} far={10} />
-
-                        {/* Auto-fit camera on load */}
-                        <AutoFitCamera />
-
-                        {/* Axes helper */}
-                        {showAxes && <axesHelper args={[5]} />}
+                        {/* Camera Controller */}
+                        <CameraController
+                          controlsRef={controlsRef}
+                          targetView={targetView}
+                          onReady={handleModelReady}
+                        />
 
                         {/* Controls */}
                         <OrbitControls
@@ -217,7 +321,6 @@ export default function Visualisasi3DPage() {
                           maxPolarAngle={Math.PI / 1.5}
                           dampingFactor={0.08}
                           enableDamping
-                          onStart={() => setModelLoaded(true)}
                         />
                       </Suspense>
                     </Canvas>

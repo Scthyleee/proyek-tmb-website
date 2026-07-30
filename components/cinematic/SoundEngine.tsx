@@ -161,7 +161,7 @@ function createWhooshSound(audioCtx: AudioContext) {
 }
 
 export function SoundProvider({ children }: { children: ReactNode }) {
-  const [isMuted, setIsMuted] = useState(true);
+  const [isMuted, setIsMuted] = useState(false);
   const audioCtxRef = useRef<AudioContext | null>(null);
   const initializedRef = useRef(false);
 
@@ -180,6 +180,24 @@ export function SoundProvider({ children }: { children: ReactNode }) {
       initializedRef.current = true;
     }
     setIsMuted((prev) => !prev);
+  }, [initAudio]);
+
+  // Auto-initialize audio context on first user interaction
+  useEffect(() => {
+    const handleFirstInteraction = () => {
+      if (!initializedRef.current) {
+        initAudio();
+        initializedRef.current = true;
+      }
+      document.removeEventListener('click', handleFirstInteraction);
+      document.removeEventListener('keydown', handleFirstInteraction);
+    };
+    document.addEventListener('click', handleFirstInteraction, { once: true });
+    document.addEventListener('keydown', handleFirstInteraction, { once: true });
+    return () => {
+      document.removeEventListener('click', handleFirstInteraction);
+      document.removeEventListener('keydown', handleFirstInteraction);
+    };
   }, [initAudio]);
 
   const playClick = useCallback(() => {
