@@ -78,7 +78,7 @@ export default function RABPage() {
           </motion.h1>
           <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.8 }}
             className="text-text-secondary mt-4 max-w-lg mx-auto">
-            Rincian biaya pembangunan Kantor Kecamatan Pahandut
+            Rincian biaya pembangunan & infrastruktur server Kantor Kecamatan Pahandut
           </motion.p>
           {/* Grand Total */}
           <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 1.2 }}

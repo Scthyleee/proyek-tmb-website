@@ -89,14 +89,19 @@
         "no": "XVIII",
         "name": "JUMLAH PEKERJAAN LAIN LAIN",
         "amount": 52865425.32
+      },
+      {
+        "no": "XIX",
+        "name": "JUMLAH INFRASTRUKTUR SERVER & JARINGAN",
+        "amount": 328200000
       }
     ],
-    "subtotal": 6061820904,
+    "subtotal": 6390020904,
     "ppn_percent": 11,
-    "ppn_amount": 666800299.4,
-    "total": 6728621203,
-    "total_rounded": 6728630000,
-    "terbilang": "TERBILANG : TIGA MILIAR TUJUH PULUH SATU JUTA LIMA RATUS RIBU RUPIAH",
+    "ppn_amount": 702902299.4,
+    "total": 7092923203,
+    "total_rounded": 7092930000,
+    "terbilang": "TERBILANG : TUJUH MILIAR SEMBILAN PULUH DUA JUTA SEMBILAN RATUS TIGA PULUH RIBU RUPIAH",
     "luas_bangunan": 405,
     "biaya_per_m2": 16613901.23
   },
@@ -2071,6 +2076,182 @@
         "name": "TOTAL BIAYA",
         "total_price": 52865425.32,
         "category": "PEKERJAAN LAIN LAIN"
+      },
+      {
+        "type": "category",
+        "no": "XIX",
+        "name": "INFRASTRUKTUR SERVER & JARINGAN"
+      },
+      {
+        "type": "item",
+        "no": "19.1",
+        "name": "Router Cisco ISR4331",
+        "code": "NET-001",
+        "volume": 1,
+        "unit": "Unit",
+        "unit_price": 45000000,
+        "total_price": 45000000,
+        "category": "INFRASTRUKTUR SERVER & JARINGAN"
+      },
+      {
+        "type": "item",
+        "no": "19.2",
+        "name": "Core Switch Cisco Catalyst 3560-24PS (Layer 3)",
+        "code": "NET-002",
+        "volume": 2,
+        "unit": "Unit",
+        "unit_price": 25000000,
+        "total_price": 50000000,
+        "category": "INFRASTRUKTUR SERVER & JARINGAN"
+      },
+      {
+        "type": "item",
+        "no": "19.3",
+        "name": "Access Switch Cisco Catalyst 2960-24TT",
+        "code": "NET-003",
+        "volume": 6,
+        "unit": "Unit",
+        "unit_price": 8500000,
+        "total_price": 51000000,
+        "category": "INFRASTRUKTUR SERVER & JARINGAN"
+      },
+      {
+        "type": "item",
+        "no": "19.4",
+        "name": "Server Dell PowerEdge T340 (Domain Controller / DNS / DHCP)",
+        "code": "SRV-001",
+        "volume": 1,
+        "unit": "Unit",
+        "unit_price": 35000000,
+        "total_price": 35000000,
+        "category": "INFRASTRUKTUR SERVER & JARINGAN"
+      },
+      {
+        "type": "item",
+        "no": "19.5",
+        "name": "Server Dell PowerEdge T340 (File Server)",
+        "code": "SRV-002",
+        "volume": 1,
+        "unit": "Unit",
+        "unit_price": 30000000,
+        "total_price": 30000000,
+        "category": "INFRASTRUKTUR SERVER & JARINGAN"
+      },
+      {
+        "type": "item",
+        "no": "19.6",
+        "name": "Server Dell PowerEdge T340 (Database Server)",
+        "code": "SRV-003",
+        "volume": 1,
+        "unit": "Unit",
+        "unit_price": 30000000,
+        "total_price": 30000000,
+        "category": "INFRASTRUKTUR SERVER & JARINGAN"
+      },
+      {
+        "type": "item",
+        "no": "19.7",
+        "name": "NVR Hikvision DS-7616NI-K2 (16-Channel CCTV)",
+        "code": "SRV-004",
+        "volume": 1,
+        "unit": "Unit",
+        "unit_price": 12000000,
+        "total_price": 12000000,
+        "category": "INFRASTRUKTUR SERVER & JARINGAN"
+      },
+      {
+        "type": "item",
+        "no": "19.8",
+        "name": "Wireless Access Point Linksys WRT300N",
+        "code": "NET-004",
+        "volume": 16,
+        "unit": "Unit",
+        "unit_price": 1200000,
+        "total_price": 19200000,
+        "category": "INFRASTRUKTUR SERVER & JARINGAN"
+      },
+      {
+        "type": "item",
+        "no": "19.9",
+        "name": "Rack Server 42U Standing",
+        "code": "NET-005",
+        "volume": 1,
+        "unit": "Unit",
+        "unit_price": 8000000,
+        "total_price": 8000000,
+        "category": "INFRASTRUKTUR SERVER & JARINGAN"
+      },
+      {
+        "type": "item",
+        "no": "19.10",
+        "name": "UPS APC Smart-UPS 3000VA",
+        "code": "NET-006",
+        "volume": 2,
+        "unit": "Unit",
+        "unit_price": 7500000,
+        "total_price": 15000000,
+        "category": "INFRASTRUKTUR SERVER & JARINGAN"
+      },
+      {
+        "type": "item",
+        "no": "19.11",
+        "name": "Kabel UTP Cat6 (305m/box)",
+        "code": "NET-007",
+        "volume": 5,
+        "unit": "Box",
+        "unit_price": 1500000,
+        "total_price": 7500000,
+        "category": "INFRASTRUKTUR SERVER & JARINGAN"
+      },
+      {
+        "type": "item",
+        "no": "19.12",
+        "name": "Kabel Fiber Optic OM3 Multimode (100m)",
+        "code": "NET-008",
+        "volume": 2,
+        "unit": "Roll",
+        "unit_price": 2500000,
+        "total_price": 5000000,
+        "category": "INFRASTRUKTUR SERVER & JARINGAN"
+      },
+      {
+        "type": "item",
+        "no": "19.13",
+        "name": "Patch Panel 24-Port Cat6",
+        "code": "NET-009",
+        "volume": 8,
+        "unit": "Unit",
+        "unit_price": 500000,
+        "total_price": 4000000,
+        "category": "INFRASTRUKTUR SERVER & JARINGAN"
+      },
+      {
+        "type": "item",
+        "no": "19.14",
+        "name": "Connector / Jack RJ45 Cat6 (100pcs/box)",
+        "code": "NET-010",
+        "volume": 10,
+        "unit": "Box",
+        "unit_price": 150000,
+        "total_price": 1500000,
+        "category": "INFRASTRUKTUR SERVER & JARINGAN"
+      },
+      {
+        "type": "item",
+        "no": "19.15",
+        "name": "Jasa Instalasi, Konfigurasi & Commissioning Jaringan",
+        "code": "NET-011",
+        "volume": 1,
+        "unit": "Ls",
+        "unit_price": 15000000,
+        "total_price": 15000000,
+        "category": "INFRASTRUKTUR SERVER & JARINGAN"
+      },
+      {
+        "type": "total",
+        "name": "TOTAL INFRASTRUKTUR SERVER & JARINGAN",
+        "total_price": 328200000,
+        "category": "INFRASTRUKTUR SERVER & JARINGAN"
       }
     ]
   },

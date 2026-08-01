@@ -49,10 +49,102 @@
   "logbook": [
     {
       "id": "lb-1",
-      "date": "10 Januari 2026",
-      "title": "Kick-off Meeting & Survey Lokasi",
-      "desc": "Pertemuan awal dengan pihak kecamatan dan pengukuran lahan awal.",
-      "progress": 10
+      "day": "Hari 1",
+      "date": "4 Juni 2026",
+      "title": "Kunjungan Pra-Pelaksanaan ke Kecamatan Pahandut",
+      "desc": "Melaksanakan kunjungan pra pelaksanaan kegiatan Teknik Membangun ke lokasi mitra. Kegiatan bertujuan untuk melakukan koordinasi awal, memperkenalkan anggota kelompok, serta membahas program kerja yang akan dilaksanakan selama kegiatan berlangsung. Dilakukan diskusi mengenai jadwal pelaksanaan, kebutuhan kegiatan, pembagian tugas, dan bentuk kerja sama dengan pihak mitra.",
+      "progress": 5,
+      "tags": ["koordinasi", "kunjungan-mitra", "program-kerja"]
+    },
+    {
+      "id": "lb-2",
+      "day": "Hari 2",
+      "date": "10 Juni 2026",
+      "title": "Konsultasi & Pengukuran Lahan Kantor Kecamatan",
+      "desc": "Melaksanakan konsultasi dan koordinasi dengan pihak Kecamatan Pahandut terkait TMB. Diskusi meliputi kondisi eksisting bangunan, denah ruangan, lokasi server, serta data luas tanah kantor. Tim memperoleh izin untuk melakukan pengukuran lahan secara langsung menggunakan meteran. Pihak kecamatan menyampaikan keinginan untuk menerapkan konsep desain Rumah Betang sebagai identitas budaya Kalimantan Tengah.",
+      "progress": 15,
+      "tags": ["pengukuran", "konsultasi", "rumah-betang", "survey"]
+    },
+    {
+      "id": "lb-3",
+      "day": "Hari 3",
+      "date": "15 Juni 2026",
+      "title": "Validasi Proyek bersama Dosen Pembimbing",
+      "desc": "Melaksanakan kunjungan bersama Dosen Pembimbing ke Kantor Kecamatan Pahandut untuk agenda validasi proyek. Kegiatan bertujuan mengonfirmasi kesesuaian rencana kerja rehabilitasi bangunan dan perancangan infrastruktur server mandiri. Dilakukan penyerahan surat tugas resmi dari pihak universitas kepada mitra sebagai bentuk komitmen formal mahasiswa.",
+      "progress": 20,
+      "tags": ["validasi", "dosbing", "surat-tugas"]
+    },
+    {
+      "id": "lb-4",
+      "day": "Hari 4",
+      "date": "19 Juni 2026",
+      "title": "Diskusi Teknis: Draf Denah 2D & Riset Hardware Server",
+      "desc": "Melaksanakan diskusi teknis internal kelompok di Fakultas Teknik. Tim berfokus pada pengembangan draf denah dua dimensi (2D) yang mencakup pembagian tata ruang bangunan sebagai dasar rencana rehabilitasi. Selain diskusi konsep estetika dan fungsionalitas bangunan, tim juga melakukan riset awal terhadap spesifikasi komponen perangkat keras server.",
+      "progress": 30,
+      "tags": ["denah-2D", "riset-server", "tata-ruang"]
+    },
+    {
+      "id": "lb-5",
+      "day": "Hari 5",
+      "date": "22 Juni 2026",
+      "title": "Pengembangan Detail Arsitektural & Model 3D Logo",
+      "desc": "Melaksanakan diskusi intensif di Cafe TerasDepan untuk melanjutkan pengembangan detail teknis desain bangunan dan perencanaan infrastruktur jaringan server. Fokus mencakup pengerjaan elemen arsitektural spesifik seperti pemodelan pilar, tangga, dan pintu bangunan, penyempurnaan draf denah 2D, pencarian referensi pendukung, serta proses pembuatan model 3D untuk logo proyek.",
+      "progress": 40,
+      "tags": ["arsitektur", "3D-model", "pilar-tangga-pintu"]
+    },
+    {
+      "id": "lb-6",
+      "day": "Hari 6",
+      "date": "25 Juni 2026",
+      "title": "Desain 2D Fasad, Atap & Draf Awal Topologi Jaringan",
+      "desc": "Melaksanakan diskusi di Cafe Djuang untuk mematangkan progres desain bangunan dan perencanaan sistem server. Tim berhasil memvisualisasikan rancangan desain bangunan secara lebih utuh dalam bentuk 2D, termasuk detail fasad dan rancangan desain atap. Tim mulai melakukan riset mendalam mengenai komponen perangkat keras serta memulai tahap awal perancangan topologi jaringan. Tim juga memulai pemodelan desain 3D menggunakan SketchUp.",
+      "progress": 50,
+      "tags": ["fasad", "atap", "topologi-jaringan", "SketchUp"]
+    },
+    {
+      "id": "lb-7",
+      "day": "Hari 7",
+      "date": "26 Juni 2026",
+      "title": "Konfigurasi CLI Jaringan & Segmentasi VLAN",
+      "desc": "Melaksanakan diskusi di Cafe Teguk.Ha untuk melanjutkan pengembangan perancangan denah struktur bangunan serta penajaman detail komponen arsitektural. Pada aspek infrastruktur jaringan, tim menyelesaikan tahap distribusi komponen dalam topologi jaringan dan berfokus pada implementasi konfigurasi Command Line Interface (CLI) pada perangkat jaringan serta pengaturan segmentasi jalur VLAN.",
+      "progress": 60,
+      "tags": ["CLI", "VLAN", "konfigurasi-jaringan", "denah-struktur"]
+    },
+    {
+      "id": "lb-8",
+      "day": "Hari 8",
+      "date": "28 Juni 2026",
+      "title": "Konsultasi Daring Progres bersama Dosen Pembimbing",
+      "desc": "Melaksanakan sesi konsultasi dan evaluasi progres proyek secara daring (online) melalui Zoom Meeting bersama Dosen Pembimbing. Tim memaparkan capaian pengerjaan termasuk penyelesaian rancangan topologi jaringan server serta draf denah 2D untuk tata ruang kantor kecamatan. Diskusi juga mencakup pembahasan mengenai penyusunan Rencana Anggaran Biaya (RAB).",
+      "progress": 70,
+      "tags": ["konsultasi-daring", "dosbing", "RAB", "topologi"]
+    },
+    {
+      "id": "lb-9",
+      "day": "Hari 9",
+      "date": "29 Juni 2026",
+      "title": "Rendering 3D SketchUp & Persiapan Presentasi",
+      "desc": "Melaksanakan diskusi di Cafe Djuang untuk memfinalisasi persiapan presentasi progres proyek. Kegiatan difokuskan pada proses rendering model 3D bangunan menggunakan SketchUp guna memvisualisasikan hasil desain akhir secara lebih realistis. Tim menyusun materi presentasi dalam format slide PPT yang komprehensif serta melakukan peninjauan menyeluruh terhadap seluruh capaian progres proyek.",
+      "progress": 80,
+      "tags": ["rendering-3D", "SketchUp", "PPT", "review"]
+    },
+    {
+      "id": "lb-10",
+      "day": "Hari 10",
+      "date": "1 Juli 2026",
+      "title": "Finalisasi PPT, RAB Server & Desain Spanduk",
+      "desc": "Melaksanakan diskusi di Cafe 88 untuk memfinalisasi materi presentasi: penyusunan slide presentasi (PPT) dan desain spanduk untuk acara presentasi di Kantor Kecamatan Pahandut. Tim menyelesaikan seluruh perencanaan infrastruktur server mencakup penjelasan sistem, spesifikasi komponen, konfigurasi VLAN, topologi jaringan, hingga penyusunan RAB server. Untuk bidang sipil, tim melakukan tahap akhir penyempurnaan desain.",
+      "progress": 90,
+      "tags": ["finalisasi", "PPT", "RAB-server", "spanduk"]
+    },
+    {
+      "id": "lb-11",
+      "day": "Hari 11",
+      "date": "3 Juli 2026",
+      "title": "Presentasi Progres di Kantor Kecamatan Pahandut",
+      "desc": "Melaksanakan sesi presentasi progres proyek di Aula Kantor Kecamatan Pahandut di hadapan pihak mitra. Tim memaparkan secara komprehensif seluruh hasil rancangan rehabilitasi bangunan dan infrastruktur server. Pihak kecamatan memberikan masukan terkait tata ruang aula — memposisikan pintu aula di sisi luar untuk meminimalisir kebisingan, perpanjangan tangga akses menuju aula, serta penambahan pintu masuk privat di belakang untuk pejabat/Camat.",
+      "progress": 100,
+      "tags": ["presentasi", "mitra", "feedback", "revisi-desain"]
     }
   ]
 }

@@ -463,10 +463,10 @@ export default function HomePage() {
           {/* Stats Grid */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 mb-20">
             {/* TODO: ganti dengan data asli */}
-            <StatCard end={12} label="Ruangan" suffix="+" />
-            <StatCard end={25} label="Perangkat" suffix="+" />
+            <StatCard end={18} label="Ruangan" suffix="+" />
+            <StatCard end={45} label="Perangkat Jaringan & Server" suffix="+" />
             <StatCard end={6} label="Anggota Tim" />
-            <StatCard end={500} label="Total Budget" prefix="Rp " suffix="Jt" />
+            <StatCard end={7.1} label="Total Budget" prefix="Rp " suffix="M" />
           </div>
 
           {/* Project description cards */}

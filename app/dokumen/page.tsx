@@ -42,12 +42,11 @@ function DokumenContent() {
     return () => document.removeEventListener('contextmenu', handleContextMenu);
   }, []);
 
-  // Build secure PDF URL — disable toolbar, navpanes, download
+  // Build secure PDF URL — use Google Docs Viewer to bypass X-Frame-Options
   const getSecurePdfUrl = (url: string | null) => {
     if (!url) return null;
-    // Add parameters to disable PDF viewer toolbar and prevent download
-    const separator = url.includes('?') ? '&' : '#';
-    return `${url}${separator}toolbar=0&navpanes=0&scrollbar=1&view=FitH`;
+    // Use Google Docs Viewer as proxy — renders PDF server-side, embeddable in iframe
+    return `https://docs.google.com/gview?url=${encodeURIComponent(url)}&embedded=true`;
   };
 
   return (
