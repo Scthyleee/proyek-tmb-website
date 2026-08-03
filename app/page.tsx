@@ -21,16 +21,19 @@ function StatCard({
   suffix,
   label,
   prefix,
+  decimals,
 }: {
   end: number;
   suffix?: string;
   label: string;
   prefix?: string;
+  decimals?: number;
 }) {
   const { ref, displayValue } = useCountUp({
     end,
     suffix: suffix || "",
     prefix: prefix || "",
+    decimals: decimals || 0,
     duration: 2.5,
   });
 
@@ -466,7 +469,7 @@ export default function HomePage() {
             <StatCard end={18} label="Ruangan" suffix="+" />
             <StatCard end={45} label="Perangkat Jaringan & Server" suffix="+" />
             <StatCard end={6} label="Anggota Tim" />
-            <StatCard end={7.1} label="Total Budget" prefix="Rp " suffix="M" />
+            <StatCard end={7.1} label="Total Budget" prefix="Rp " suffix="M" decimals={1} />
           </div>
 
           {/* Project description cards */}

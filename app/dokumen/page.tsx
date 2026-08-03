@@ -130,21 +130,38 @@ function DokumenContent() {
             {/* PDF Viewer Area */}
             <div className="rounded-b-2xl border border-border-subtle bg-bg-card/50 overflow-hidden">
               {activeDoc.pdfUrl ? (
-                <div className="pdf-viewer-container relative" onContextMenu={(e) => e.preventDefault()}>
-                  <iframe
-                    ref={iframeRef}
-                    src={getSecurePdfUrl(activeDoc.pdfUrl) || ''}
-                    className="w-full h-[70vh]"
-                    title={activeDoc.title}
-                    sandbox="allow-same-origin allow-scripts"
-                    style={{ border: 'none' }}
-                  />
-                  {/* Invisible overlay on top-right to block download button area */}
-                  <div 
-                    className="absolute top-0 right-0 w-[200px] h-[48px] bg-transparent z-10"
-                    style={{ pointerEvents: 'auto' }}
-                    onContextMenu={(e) => e.preventDefault()}
-                  />
+                <div className="h-[70vh] flex flex-col items-center justify-center p-6 text-center">
+                  <div className="w-24 h-28 mb-6 rounded-xl border border-border-subtle bg-bg-tertiary flex items-center justify-center relative shadow-lg">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" className="text-accent">
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                      <polyline points="14 2 14 8 20 8" />
+                      <line x1="16" y1="13" x2="8" y2="13" />
+                      <line x1="16" y1="17" x2="8" y2="17" />
+                      <line x1="10" y1="9" x2="8" y2="9" />
+                    </svg>
+                    <span className="absolute -top-2 -right-2 px-2 py-1 rounded text-[10px] bg-accent/20 text-accent border border-accent/30 font-bold uppercase tracking-wider backdrop-blur-md">
+                      PDF
+                    </span>
+                  </div>
+                  <h3 className="font-[family-name:var(--font-display)] text-lg font-semibold mb-3">
+                    {activeDoc.title}
+                  </h3>
+                  <p className="text-text-secondary text-sm max-w-md mx-auto mb-8 leading-relaxed">
+                    Dokumen ini berukuran terlalu besar (26.7 MB) untuk ditampilkan langsung di pratinjau browser. Silakan buka dokumen di tab baru untuk melihat atau mengunduhnya secara penuh.
+                  </p>
+                  <a
+                    href={activeDoc.pdfUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-accent text-background font-medium hover:bg-accent/90 transition-all hover:scale-105 shadow-lg shadow-accent/20"
+                  >
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                    Buka Dokumen PDF
+                  </a>
                 </div>
               ) : (
                 <div className="h-[70vh] flex items-center justify-center">
