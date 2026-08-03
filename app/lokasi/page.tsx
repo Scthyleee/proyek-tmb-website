@@ -8,8 +8,8 @@ import { ParticleBackground } from "@/components/cinematic/ParticleBackground";
 const locationInfo = {
   name: "Kantor Kecamatan Pahandut",
   address: "Jl. Tjilik Riwut, Pahandut, Kota Palangka Raya, Kalimantan Tengah",
-  lat: -2.2045,
-  lng: 113.9168,
+  lat: -2.2091,
+  lng: 113.9161,
   details: [
     { label: "Kecamatan", value: "Pahandut" },
     { label: "Kota", value: "Palangka Raya" },

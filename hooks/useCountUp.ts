@@ -24,7 +24,7 @@ export function useCountUp(options: CountUpOptions) {
   } = options;
 
   const [value, setValue] = useState(start);
-  const [hasTriggered, setHasTriggered] = useState(false);
+  const hasTriggered = useRef(false);
   const ref = useRef<HTMLElement>(null);
   const animationRef = useRef<number>(0);
 
@@ -34,8 +34,8 @@ export function useCountUp(options: CountUpOptions) {
 
     const observer = new IntersectionObserver(
       (entries) => {
-        if (entries[0].isIntersecting && !hasTriggered) {
-          setHasTriggered(true);
+        if (entries[0].isIntersecting && !hasTriggered.current) {
+          hasTriggered.current = true;
 
           const startTime = performance.now();
           const durationMs = duration * 1000;
@@ -67,7 +67,7 @@ export function useCountUp(options: CountUpOptions) {
       observer.disconnect();
       cancelAnimationFrame(animationRef.current);
     };
-  }, [end, start, duration, hasTriggered]);
+  }, [end, start, duration]);
 
   const formatNumber = (num: number): string => {
     const fixed = num.toFixed(decimals);

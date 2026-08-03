@@ -178,7 +178,7 @@ const hotspotCameras: Record<string, { azimuth: number; polar: number; distance:
   front:    { azimuth: 0,      polar: 1.3,   distance: 100 },
   roof:     { azimuth: 0.3,    polar: 0.3,   distance: 150 },
   side:     { azimuth: Math.PI / 2, polar: 1.2, distance: 110 },
-  interior: { azimuth: -0.1,    polar: 1.4, distance: 25 },
+  interior: { azimuth: -0.5,    polar: 1.5, distance: 5 },
 };
 
 /* ─── Main Page ─── */
