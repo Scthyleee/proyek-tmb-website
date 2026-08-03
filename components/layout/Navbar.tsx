@@ -70,17 +70,12 @@ export function Navbar() {
           <div className="flex items-center justify-between h-16 md:h-20">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-3 group">
-              <div className="relative w-9 h-9 md:w-10 md:h-10">
-                <div
-                  className="absolute inset-0 rounded-lg border border-accent/30 
-                  group-hover:border-accent/60 transition-colors duration-300 
-                  flex items-center justify-center"
-                >
-                  <span className="font-[family-name:var(--font-display)] text-accent text-sm md:text-base font-bold">
-                    T
-                  </span>
-                </div>
-                <div className="absolute inset-0 rounded-lg bg-accent/5 group-hover:bg-accent/10 transition-colors duration-300" />
+              <div className="relative w-10 h-10 md:w-12 md:h-12 flex items-center justify-center bg-white/5 rounded-full border border-accent/20 group-hover:border-accent/50 group-hover:bg-white/10 transition-all duration-300 overflow-hidden">
+                <img 
+                  src="/logo-tmb-transparent.png" 
+                  alt="Logo Universitas Palangka Raya TMB" 
+                  className="w-[90%] h-[90%] object-contain drop-shadow-[0_0_3px_rgba(255,255,255,0.8)]"
+                />
               </div>
               <div className="hidden sm:block">
                 <p className="font-[family-name:var(--font-display)] text-xs md:text-sm font-semibold tracking-wider text-foreground">
